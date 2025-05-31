@@ -201,6 +201,196 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
+#home #home-introduction {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (max-width: 992px) {
+  #home #home-introduction {
+    max-width: 590px;
+  }
+}
+#home #home-introduction p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 7px;
+  color: #f28123;
+  margin-bottom: 17.5px;
+}
+#home #home-introduction h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 568px) {
+  #home #home-introduction h1 {
+    font-size: 28px;
+  }
+}
+#home #home-introduction .introduction-btn {
+  margin-top: 35px;
+}
+#home #home-introduction .introduction-btn button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid #f28123;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin: 0 7px;
+}
+@media (max-width: 568px) {
+  #home #home-introduction .introduction-btn button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+#home #home-introduction .introduction-btn .left-btn {
+  background-color: #f28123;
+}
+#home #home-introduction .introduction-btn .left-btn:hover {
+  background-color: black;
+  border-color: black;
+}
+#home #home-introduction .introduction-btn .right-btn {
+  background: none;
+}
+#home #home-introduction .introduction-btn .right-btn:hover {
+  background-color: #f28123;
+}
+#home #home-features {
+  background-color: #f5f5f5;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px 0;
+}
+@media (max-width: 992px) {
+  #home #home-features {
+    padding: 15px 0px;
+  }
+}
+@media (max-width: 568px) {
+  #home #home-features {
+    padding: 10px 0px !important;
+  }
+}
+#home #home-features .features-icons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+@media (max-width: 992px) {
+  #home #home-features .features-icons {
+    max-width: 700px;
+    flex-wrap: wrap;
+    padding: 45px 30px;
+  }
+}
+@media (max-width: 568px) {
+  #home #home-features .features-icons {
+    padding: 30px 20px !important;
+  }
+}
+#home #home-features .features-icons .features-icon {
+  display: flex;
+}
+@media (max-width: 992px) {
+  #home #home-features .features-icons .features-icon {
+    min-width: 40%;
+    margin-bottom: 30px;
+  }
+}
+#home #home-features .features-icons .features-icon .left-icon {
+  font-size: 25px;
+  color: #f28123;
+  border: 2px dotted #f28123;
+  padding: 15px 20px;
+  border-radius: 50%;
+}
+#home #home-features .features-icons .features-icon .right-contennt {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#home #home-features .features-icons .features-icon .right-contennt h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+#home #home-features .features-icons .features-icon .right-contennt p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+}
+#home #home-banner {
+  width: 100%;
+  background-image: url("../Image/Home/Banner/1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+#home #home-banner .home-banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 110px 20px;
+}
+#home #home-banner .home-banner-text h3 {
+  font-size: 50px;
+  font-weight: 700px;
+  color: #051922;
+}
+@media (max-width: 568px) {
+  #home #home-banner .home-banner-text h3 {
+    font-size: 30px;
+  }
+}
+#home #home-banner .home-banner-text .banner-text-discount {
+  display: flex;
+  align-items: flex-end;
+}
+#home #home-banner .home-banner-text .banner-text-discount span {
+  font-size: 24px;
+  display: flex;
+}
+#home #home-banner .home-banner-text .banner-text-discount p {
+  display: flex;
+  margin: 0 10px;
+  color: #f28123;
+  font-size: 50px;
+  font-weight: 700;
+}
+#home #home-banner .home-banner-text a {
+  background-color: #f28123;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 25px;
+  margin-top: 30px;
+  width: -moz-max-content;
+  width: max-content;
+}
+#home #home-banner .home-banner-text a:hover {
+  background-color: #012738;
+  color: #f28123;
+}
 
 #footer {
   width: 100%;
