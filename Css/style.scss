@@ -347,6 +347,183 @@ a {
       }
     }
   }
+    #home-products {
+    background-color: #f8f9fa;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+    .products {
+      margin: 0 auto;
+      max-width: 1200px;
+      width: 100%;
+     
+      .products-header {
+        margin: 40px 0;
+        p {
+          @include s20w600();
+          @include C-grey();
+          max-width: 530px;
+          width: 100%;  
+        }
+      }
+      .products-cards {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .products-card {
+          @include respond-to("tablet") {
+            max-width: 30%;
+            margin: 20px auto;
+          }
+          @include respond-to("mobile") {
+            max-width: 80%;
+            margin: 20px auto;
+          }
+          background-color: white;
+          display: flex;
+          max-width: 22%;
+          width: 100%;
+          flex-direction: column;
+          box-sizing: border-box;
+          align-items: center;
+          padding: 30px;
+          margin: 10px 0;
+          .cart-item {
+            box-sizing: border-box;
+            .cart-item_img {
+              max-width: 100%;
+              img {
+                width: 100%;
+              }
+            }
+          }
+          h3 {
+            @include s20w600();
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 10px;
+          }
+          p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 700;
+
+            span {
+              @include C-grey();
+              @include s14w400();
+            }
+          }
+          a {
+            button {
+              margin-top: 20px;
+              background-color: #f28123;
+              border: 2px solid #f28123;
+              color: white;
+              @include s14w400();
+              padding: 10px 20px;
+              border-radius: 20px;
+            }
+            :hover {
+              background-color: #555555;
+              color: #f28123;
+            }
+          }
+        }
+      }
+    }
+  }
+  #home-offer_banner {
+    width: 100%;
+    display: flex;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    .offer-banner {
+      margin: auto;
+      max-width: 1200px;
+      @include respond-to("desktop") {
+        display: flex;
+      }
+      padding: 20px;
+      .banner-img {
+        @include respond-to("desktop") {
+          max-width: 50%;
+        }
+        @include respond-to("tablet") {
+          max-width: 90%;
+          margin: auto;
+        }
+        img {
+          width: 100%;
+        }
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+      }
+
+      .banner-info {
+        @include respond-to("desktop") {
+          max-width: 50%;
+        }
+        @include respond-to("tablet") {
+          max-width: 90%;
+          margin: auto;
+        }
+        width: 100%;
+        h3 {
+          font-size: 40px;
+          font-weight: 700;
+          margin-bottom: 17px;
+          span {
+            color: #f28123;
+          }
+        }
+        h4 {
+          font-size: 21px;
+          font-weight: 300;
+          margin-bottom: 17px;
+        }
+        p {
+          @include s14w400();
+          margin: 25px 0;
+        }
+        .banner-countdown {
+          margin: 20px 0 40px;
+          display: flex;
+          .countdown-colon {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #f28123;
+            padding: 8px 15px;
+            align-items: center;
+            margin-right: 5px;
+            span {
+              @include C-orange();
+              font-size: 30px;
+              font-weight: 700;
+            }
+          }
+        }
+        a {
+          background-color: #f28123;
+          color: #fff;
+          padding: 10px 20px;
+          @include s14w400();
+          border-radius: 25px;
+          margin-top: 30px;
+        }
+        a:hover {
+          background-color: #012738;
+          color: #f28123;
+        }
+      }
+    }
+  }
    #home-recognize_us {
     background-color: white;
     width: 100%;
