@@ -707,6 +707,217 @@ a {
   color: #f28123;
 }
 
+#contact {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+#contact #contact-background {
+  width: 100%;
+  height: 60vh;
+  position: fixed;
+  z-index: -1;
+  background: linear-gradient(rgba(5, 7, 8, 0.5), rgba(5, 7, 8, 0.5)), url("../Image/Home/Homeintroduction/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contact #contact-introduction {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (max-width: 992px) {
+  #contact #contact-introduction {
+    max-width: 590px;
+  }
+}
+#contact #contact-introduction p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 7px;
+  color: #f28123;
+  margin-bottom: 17.5px;
+}
+#contact #contact-introduction h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 568px) {
+  #contact #contact-introduction h1 {
+    font-size: 28px;
+  }
+}
+#contact #contact-questions {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: white;
+}
+#contact #contact-questions .contact-question {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  #contact #contact-questions .contact-question {
+    padding: 120px 20px;
+    display: flex;
+  }
+}
+@media (max-width: 992px) {
+  #contact #contact-questions .contact-question {
+    padding: 80px 20px;
+  }
+}
+@media (max-width: 568px) {
+  #contact #contact-questions .contact-question {
+    padding: 40px 10px;
+  }
+}
+#contact #contact-questions .contact-question .question-form {
+  max-width: 750px;
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  #contact #contact-questions .contact-question .question-form {
+    padding-right: 60px;
+  }
+}
+#contact #contact-questions .contact-question .question-form .form-title {
+  margin-bottom: 25px;
+}
+#contact #contact-questions .contact-question .question-form .form-title h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+#contact #contact-questions .contact-question .question-form .form-title p {
+  font-size: 14px;
+  font-weight: 400;
+}
+#contact #contact-questions .contact-question .question-form .form-contact p {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#contact #contact-questions .contact-question .question-form .form-contact p input {
+  margin-bottom: 10px;
+  width: 49%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+@media (max-width: 568px) {
+  #contact #contact-questions .contact-question .question-form .form-contact p input {
+    width: 100%;
+  }
+}
+#contact #contact-questions .contact-question .question-form .form-contact p textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+#contact #contact-questions .contact-question .question-form .form-contact .submitbtn {
+  margin-top: 15px;
+}
+#contact #contact-questions .contact-question .question-form .form-contact .submitbtn input {
+  background-color: #f28123;
+  font-size: 15px;
+  font-weight: 700;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 30px;
+}
+#contact #contact-questions .contact-question .question-form .form-contact .submitbtn :hover {
+  background-color: #162133;
+  color: #f28123;
+}
+#contact #contact-questions .contact-question .contact-form {
+  margin: 30px auto 0 auto;
+  max-width: 750px;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  #contact #contact-questions .contact-question .contact-form {
+    width: 350px;
+    margin: 0 auto 0 auto;
+  }
+}
+#contact #contact-questions .contact-question .contact-form .contact-form-box {
+  margin-bottom: 20px;
+  display: flex;
+}
+#contact #contact-questions .contact-question .contact-form .contact-form-box .form-box-left {
+  margin-right: 15px;
+}
+#contact #contact-questions .contact-question .contact-form .contact-form-box .form-box-left i {
+  font-size: 22px;
+  color: #f28123;
+}
+#contact #contact-questions .contact-question .contact-form .contact-form-box .form-box-right h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#contact #contact-questions .contact-question .contact-form .contact-form-box .form-box-right p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+#contact #contact-location {
+  width: 100%;
+  box-sizing: border-box;
+}
+#contact #contact-location .locatin-title {
+  background-color: #162133;
+  text-align: center;
+  padding: 50px 0;
+}
+#contact #contact-location .locatin-title p {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+@media (max-width: 568px) {
+  #contact #contact-location .locatin-title p {
+    font-size: 25px;
+  }
+}
+#contact #contact-location .locatin-title p i {
+  color: #f28123;
+}
+#contact #contact-location .location-map {
+  width: 100%;
+  aspect-ratio: 16/9;
+  max-height: 70vh;
+  position: relative;
+}
+#contact #contact-location .location-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
 #shop {
   width: 100%;
   box-sizing: border-box;
