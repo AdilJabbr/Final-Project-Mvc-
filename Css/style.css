@@ -1470,6 +1470,176 @@ a {
   background-color: #f28123 !important;
 }
 
+#card {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+#card #card-background {
+  width: 100%;
+  height: 60vh;
+  position: fixed;
+  z-index: -1;
+  background: linear-gradient(rgba(5, 7, 8, 0.5), rgba(5, 7, 8, 0.5)), url("../Image/Home/Homeintroduction/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#card #card-introduction {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (max-width: 992px) {
+  #card #card-introduction {
+    max-width: 590px;
+  }
+}
+#card #card-introduction p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 7px;
+  color: #f28123;
+  margin-bottom: 17.5px;
+}
+#card #card-introduction h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 568px) {
+  #card #card-introduction h1 {
+    font-size: 28px;
+  }
+}
+#card #card-tables {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+#card #card-tables .tables {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: white;
+  box-sizing: border-box;
+}
+@media (min-width: 992px) {
+  #card #card-tables .tables {
+    display: flex;
+  }
+}
+#card #card-tables .tables .card-table {
+  padding: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  #card #card-tables .tables .card-table {
+    max-width: 70%;
+  }
+}
+#card #card-tables .tables .card-table table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  width: 100%;
+}
+#card #card-tables .tables .card-table table tr {
+  width: 100%;
+}
+#card #card-tables .tables .card-table table tr th {
+  background-color: #efefef;
+  font-size: 15px;
+  font-weight: 400;
+  height: 45px;
+}
+#card #card-tables .tables .card-table table tr td {
+  height: 70px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #efefef;
+  text-align: center;
+  vertical-align: middle;
+}
+#card #card-tables .tables .card-table .product-remove button {
+  border: none;
+}
+#card #card-tables .tables .card-table .product-remove button i {
+  color: red;
+}
+#card #card-tables .tables .card-table .product-img img {
+  width: 50px;
+  height: 50px;
+}
+#card #card-tables .tables .card-table .product-quantity input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+}
+#card #card-tables .tables .card-totals {
+  margin: 40px;
+  padding: 20px;
+  margin: auto;
+  max-width: 720px;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  #card #card-tables .tables .card-totals {
+    width: 30%;
+  }
+}
+#card #card-tables .tables .card-totals .total-table table {
+  border-collapse: collapse;
+  margin: 0;
+  border-spacing: 0;
+  width: 100%;
+}
+#card #card-tables .tables .card-totals .total-table table tr {
+  width: 100%;
+}
+#card #card-tables .tables .card-totals .total-table table tr th {
+  background-color: #efefef;
+  font-size: 15px;
+  font-weight: 400;
+  height: 45px;
+}
+#card #card-tables .tables .card-totals .total-table table tr td {
+  padding: 15px;
+  height: 70px;
+  border: 1px solid #efefef;
+  font-size: 15px;
+  font-weight: 700;
+}
+#card #card-tables .tables .card-totals .total-btn {
+  margin-top: 50px;
+}
+#card #card-tables .tables .card-totals .total-btn a {
+  margin-right: 20px;
+  background-color: #f28123;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: inline-block;
+}
+#card #card-tables .tables .card-totals .total-btn :hover {
+  background-color: #162133;
+  color: #f28123;
+}
+
 #footer {
   width: 100%;
   background-color: #051922;

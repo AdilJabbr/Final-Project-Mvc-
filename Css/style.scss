@@ -1402,6 +1402,173 @@ a {
     }
   }
 }
+#card {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  #card-background {
+    width: 100%;
+    height: 60vh;
+    position: fixed;
+    z-index: -1;
+    background: linear-gradient(rgba(5, 7, 8, 0.5), rgba(5, 7, 8, 0.5)),
+      url("../Image/Home/Homeintroduction/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #card-introduction {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    @include respond-to("tablet") {
+      max-width: 590px;
+    }
+
+    p {
+      @include s15w700();
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 7px;
+      @include C-orange();
+      margin-bottom: 17.5px;
+    }
+    h1 {
+      font-size: 64px;
+      font-weight: 700;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      @include respond-to("mobile") {
+        font-size: 28px;
+      }
+    }
+  }
+  #card-tables {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    .tables {
+      max-width: 1200px;
+      margin: 20px auto;
+      background-color: white;
+      box-sizing: border-box;
+      @include respond-to("desktop") {
+        display: flex;
+      }
+
+      .card-table {
+        padding: 20px;
+        max-width: 720px;
+        margin: 0 auto;
+        @include respond-to("desktop") {
+          max-width: 70%;
+        }
+        width: 100%;
+        table {
+          border-collapse: collapse;
+          margin: 0;
+          padding: 0;
+          border-spacing: 0;
+          width: 100%;
+          tr {
+            width: 100%;
+            th {
+              background-color: #efefef;
+              font-size: 15px;
+              font-weight: 400;
+              height: 45px;
+            }
+            td {
+              height: 70px;
+              @include s14w400();
+              border: 1px solid #efefef;
+              text-align: center;
+              vertical-align: middle;
+            }
+          }
+        }
+        .product-remove {
+          button {
+            border: none;
+            i {
+              color: red;
+            }
+          }
+        }
+        .product-img {
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+        .product-quantity {
+          input {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100px;
+          }
+        }
+      }
+      .card-totals {
+        margin: 40px;
+        @include respond-to("desktop") {
+          width: 30%;
+        }
+        padding: 20px;
+        margin: auto;
+        max-width: 720px;
+        width: 100%;
+        .total-table {
+          table {
+            border-collapse: collapse;
+            margin: 0;
+            border-spacing: 0;
+            width: 100%;
+            tr {
+              width: 100%;
+              th {
+                background-color: #efefef;
+                font-size: 15px;
+                font-weight: 400;
+                height: 45px;
+              }
+              td {
+                padding: 15px;
+                height: 70px;
+                border: 1px solid #efefef;
+                @include s15w700();
+              }
+            }
+          }
+        }
+        .total-btn {
+          margin-top: 50px;
+          a {
+            margin-right: 20px;
+            background-color: #f28123;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            display: inline-block;
+          }
+          :hover {
+            background-color: #162133;
+            color: #f28123;
+          }
+        }
+      }
+    }
+  }
+}
 #footer {
   width: 100%;
   background-color: #051922;
