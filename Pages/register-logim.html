@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <header id="navbars">
+    <div class="navbar">
+      <div class="navbar-left">
+        <a href="#"><img src="../Image/Navbar/logo.png  " alt="" /></a>
+      </div>
+      <div class="navbar-center">
+        <ul class="main-menu">
+          <li>
+            <a href="./home.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="./shop.html" class="shop-sub-menu">Shop</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="./shop.html">Shop</a>
+              </li>
+              <li>
+                <a href="./cart.html">Cart</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <a href="./cart.html"><i class="bi bi-cart-fill"></i></a>
+        <div class="input-box" id="inputBox">
+          <input type="text" placeholder="Bura yaz..." />
+        </div>
+        <button onclick="toggleInput()"><i class="bi bi-search"></i></button>
+        <button class="menu-list-mobil_table" id="menu-open">
+          <i class="bi bi-list-ul"></i>
+        </button>
+        <button class="menu-list-mobil_table" id="menu-close">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <a href="./login-register.html">Login</a>
+      </div>
+    </div>
+    <div class="navbar-mobile_tablet" id="mobile-tablet-menu">
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li>
+          <div class="submenu-btn">
+            <a href="./shop.html">Shop </a>
+            <div class="submenu-btn-icon">
+              <button id="submenu-expand">
+                <i class="bi bi-arrows-expand"></i></button
+              ><button id="submenu-collapse">
+                <i class="bi bi-arrows-collapse"></i>
+              </button>
+            </div>
+          </div>
+          <ul class="submenu-mobile_tablet" id="mobil-menu">
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="./cart.html">Cart</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="./cart.html">Cart</i></a>
+        </li>
+        <li>
+          <a href="./login-register.html">Login</i></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+    <main id="login-register">
+      <section id="Sing-in_up-section">
+                    <div class="registration">
+                        <div id="sign-up">
+                          <h1>Create account</h1>
+                          <input type="text" placeholder="First name">
+                          <input type="text" placeholder="Last name">
+                          <input type="email" placeholder="Email">
+                          <span class="password-container">
+                              <input type="password"  class="password-input" placeholder="Password" >
+                              <button type="button" class="toggle-password">
+                                  <i class="bi bi-eye"></i>
+                                </button>
+                          </span>
+                          <div class="sing-up-btn">
+                              <button class="sign-btn">CREATE</button>
+                              <button class="sign-up-link"><a href="./Shop.html">Return to store <a/>
+                              </button>
+                          </div>
+                      </div>
+                    </div>
+                
+    </section>
+    </main>
+    <footer id="footer">
+        <section id="footer-section">
+          <div class="footer-top">
+            <div class="footer-box">
+              <h2>
+                About us
+                <span>__</span>
+              </h2>
+              <p>
+                Ut enim ad minim veniam perspiciatis unde omnis iste natus error
+                sit voluptatem accusantium doloremque laudantium, totam rem
+                aperiam, eaque ipsa quae.
+              </p>
+            </div>
+            <div class="footer-box">
+              <h2>
+                Get in Touch
+                <span>__</span>
+              </h2>
+              <ul>
+                <li>34/8, East Hukupara, Gifirtok, Sadan.</li>
+                <li>support@fruitkha.com</li>
+                <li>+00 111 222 3333</li>
+              </ul>
+            </div>
+            <div class="footer-box">
+              <h2>
+                Pages
+                <span>__</span>
+              </h2>
+              <ul>
+                <li>
+                  <span><i class="bi bi-chevron-right"></i></span
+                  ><a href="./home.html">Home</a>
+                </li>
+                <li>
+                  <span><i class="bi bi-chevron-right"></i></span
+                  ><a href="./about.html">About</a>
+                </li>
+                <li>
+                  <span><i class="bi bi-chevron-right"></i></span
+                  ><a href="./contact.html">Contact</a>
+                </li>
+                <li>
+                  <span><i class="bi bi-chevron-right"></i></span
+                  ><a href="./shop.html">Shop</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-box">
+              <h2>
+                Subscribe
+                <span>__</span>
+              </h2>
+              <p>Subscribe to our mailing list to get the latest updates.</p>
+              <div class="box-input">
+                <input type="email" placeholder="Email" />
+                <button><i class="bi bi-telegram"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-bootom-copyrights">
+              Copyrights © 2025 - Adil Jabbarlı
+            </div>
+            <div class="footer-bootom-icon">
+              <ul>
+                <li>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+    </footer>
+</body>
+<script src="../Js/navbar.js"></script>
+<script src="../Js/login-register.js"></script>
+</html>
