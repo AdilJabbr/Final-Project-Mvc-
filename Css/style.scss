@@ -1569,6 +1569,196 @@ a {
     }
   }
 }
+#checkout {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  #checkout-background {
+    width: 100%;
+    height: 60vh;
+    position: fixed;
+    z-index: -1;
+    background: linear-gradient(rgba(5, 7, 8, 0.5), rgba(5, 7, 8, 0.5)),
+      url("../Image/Home/Homeintroduction/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #checkout-introduction {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    @include respond-to("tablet") {
+      max-width: 590px;
+    }
+
+    p {
+      @include s15w700();
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 7px;
+      @include C-orange();
+      margin-bottom: 17.5px;
+    }
+    h1 {
+      font-size: 64px;
+      font-weight: 700;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      @include respond-to("mobile") {
+        font-size: 28px;
+      }
+    }
+  }
+  #checkout-accordion {
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    .accordion-area{
+      box-sizing: border-box;
+      max-width: 1200px;
+      margin: auto;
+      @include respond-to("desktop"){
+        display: flex;
+      };
+      padding: 150px 0;
+      .accordion-items {
+        margin: 0 auto;
+        max-width: 700px;
+        width: 100%;
+        .accordion-item {
+          margin-bottom: 20px;
+          .accordion-header {
+            font-size: 15px;
+            width: 100%;
+            padding: 20px;
+            background-color: #efefef;
+            padding-left: 50px;
+            font-weight: 600;
+            i {
+              color: #f28123;
+            }
+          }
+          .open {
+            padding: 20px;
+          }
+          .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            p {
+              padding: 10px 0;
+              input , textarea{
+                border: 1px solid #ddd;
+                padding: 15px;
+                width: 100%;
+                border-radius: 3px;
+              }
+            }
+            .card-preview {
+              width: 320px;
+              height: 190px;
+              background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+              color: #fff;
+              border-radius: 16px;
+              padding: 20px;
+              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              margin-bottom: 30px;
+  
+              .card-number {
+                font-size: 1.5rem;
+                letter-spacing: 3px;
+              }
+  
+              .card-bottom {
+                display: flex;
+                justify-content: space-between;
+                font-size: 0.9rem;
+                align-items: center;
+  
+                .cvv {
+                  background: rgba(255, 255, 255, 0.2);
+                  padding: 4px 8px;
+                  border-radius: 8px;
+                }
+              }
+            }
+  
+            .card-form {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+              .form-group {
+                display: flex;
+                flex-direction: column;
+  
+                label {
+                  margin-bottom: 8px;
+                  font-size: 0.9rem;
+                  color: #333;
+                }
+  
+                input {
+                  padding: 10px;
+                  border: 1px solid #ccc;
+                  border-radius: 8px;
+                  font-size: 1rem;
+                  transition: border 0.3s;
+  
+                  &:focus {
+                    border-color: #2575fc;
+                    outline: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .checkout-details{
+        width: 250px;
+        margin: auto;
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th, td {
+          padding: 10px;
+          margin: 0;
+          text-align: left;
+        }
+        td{
+          border: 1px solid #efefef;
+        }
+        thead{
+          background-color: #efefef;
+        }
+        button{
+          background-color: #f28123;
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 20px;
+        }
+        button:hover{
+          background-color: #012738;
+          color: #f28123;
+        }
+      }
+    }
+  }
+}
 #login-register {
  background: #2A7B9B;
 background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);

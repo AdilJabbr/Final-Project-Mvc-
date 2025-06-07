@@ -1640,6 +1640,195 @@ a {
   color: #f28123;
 }
 
+#checkout {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+#checkout #checkout-background {
+  width: 100%;
+  height: 60vh;
+  position: fixed;
+  z-index: -1;
+  background: linear-gradient(rgba(5, 7, 8, 0.5), rgba(5, 7, 8, 0.5)), url("../Image/Home/Homeintroduction/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#checkout #checkout-introduction {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (max-width: 992px) {
+  #checkout #checkout-introduction {
+    max-width: 590px;
+  }
+}
+#checkout #checkout-introduction p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 7px;
+  color: #f28123;
+  margin-bottom: 17.5px;
+}
+#checkout #checkout-introduction h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 568px) {
+  #checkout #checkout-introduction h1 {
+    font-size: 28px;
+  }
+}
+#checkout #checkout-accordion {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+}
+#checkout #checkout-accordion .accordion-area {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: auto;
+  padding: 150px 0;
+}
+@media (min-width: 992px) {
+  #checkout #checkout-accordion .accordion-area {
+    display: flex;
+  }
+}
+#checkout #checkout-accordion .accordion-area .accordion-items {
+  margin: 0 auto;
+  max-width: 700px;
+  width: 100%;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item {
+  margin-bottom: 20px;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-header {
+  font-size: 15px;
+  width: 100%;
+  padding: 20px;
+  background-color: #efefef;
+  padding-left: 50px;
+  font-weight: 600;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-header i {
+  color: #f28123;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .open {
+  padding: 20px;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content p {
+  padding: 10px 0;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content p input, #checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content p textarea {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 100%;
+  border-radius: 3px;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-preview {
+  width: 320px;
+  height: 190px;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-preview .card-number {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-preview .card-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  align-items: center;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-preview .card-bottom .cvv {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-form .form-group label {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #333;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-form .form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+#checkout #checkout-accordion .accordion-area .accordion-items .accordion-item .accordion-content .card-form .form-group input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+#checkout #checkout-accordion .accordion-area .checkout-details {
+  width: 250px;
+  margin: auto;
+}
+#checkout #checkout-accordion .accordion-area .checkout-details table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#checkout #checkout-accordion .accordion-area .checkout-details th, #checkout #checkout-accordion .accordion-area .checkout-details td {
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+}
+#checkout #checkout-accordion .accordion-area .checkout-details td {
+  border: 1px solid #efefef;
+}
+#checkout #checkout-accordion .accordion-area .checkout-details thead {
+  background-color: #efefef;
+}
+#checkout #checkout-accordion .accordion-area .checkout-details button {
+  background-color: #f28123;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+#checkout #checkout-accordion .accordion-area .checkout-details button:hover {
+  background-color: #012738;
+  color: #f28123;
+}
+
 #login-register {
   background: #2A7B9B;
   background: linear-gradient(90deg, rgb(42, 123, 155) 0%, rgb(87, 199, 133) 50%, rgb(237, 221, 83) 100%);

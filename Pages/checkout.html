@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/style.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <header id="navbars">
+      <div class="navbar">
+        <div class="navbar-left">
+          <a href="#"><img src="../Image/Navbar/logo.png  " alt="" /></a>
+        </div>
+        <div class="navbar-center">
+          <ul class="main-menu">
+            <li>
+              <a href="./home.html">Home</a>
+            </li>
+            <li>
+              <a href="./about.html">About</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="./shop.html" class="shop-sub-menu">Shop</a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="./shop.html">Shop</a>
+                </li>
+                <li>
+                  <a href="./cart.html">Cart</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-right">
+          <a href="./cart.html"><i class="bi bi-cart-fill"></i></a>
+          <div class="input-box" id="inputBox">
+            <input type="text" placeholder="Bura yaz..." />
+          </div>
+          <button onclick="toggleInput()"><i class="bi bi-search"></i></button>
+          <button class="menu-list-mobil_table" id="menu-open">
+            <i class="bi bi-list-ul"></i>
+          </button>
+          <button class="menu-list-mobil_table" id="menu-close">
+            <i class="bi bi-x-lg"></i>
+          </button>
+          <a href="./login-register.html">Login</a>
+        </div>
+      </div>
+      <div class="navbar-mobile_tablet" id="mobile-tablet-menu">
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li>
+            <div class="submenu-btn">
+              <a href="./shop.html">Shop </a>
+              <div class="submenu-btn-icon">
+                <button id="submenu-expand">
+                  <i class="bi bi-arrows-expand"></i></button
+                ><button id="submenu-collapse">
+                  <i class="bi bi-arrows-collapse"></i>
+                </button>
+              </div>
+            </div>
+            <ul class="submenu-mobile_tablet" id="mobil-menu">
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./cart.html">Cart</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./cart.html">Cart</i></a>
+          </li>
+          <li>
+            <a href="./login-register.html">Login</i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main id="checkout">
+        <section id="checkout-background"></section>
+        <section id="checkout-introduction">
+          <p>Fresh and Organic</p>
+          <h1>Check Out Product</h1>
+        </section>
+        <section id="checkout-accordion">
+              <div class="accordion-area">
+                <div class="accordion-items">
+                  <div class="accordion-item">
+                      <div class="accordion-header"><i class="bi bi-check-circle-fill"></i>  Billing Address</div>
+                      <div class="accordion-content"">
+                          <form >
+                              <p><input type="text" placeholder="Name"></p>
+                              <p><input type="email" placeholder="Email"></p>
+                              <p><input type="text" placeholder="Address"></p>
+                              <p><input type="tel" placeholder="Phone"></p>
+                              <p><textarea name="bill" id="bill" cols="30" rows="10" placeholder="Say Something"></textarea></p>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-header"><i class="bi bi-check-circle-fill"></i> Shipping Address</div>
+                      <div class="accordion-content">
+                          <form ">
+                              <p><input type="text" placeholder="Address"></p>
+                              
+                          </form>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-header"><i class="bi bi-check-circle-fill"></i> Card Detalis</div>
+                      <div class="accordion-content">
+                          <div class="card-preview">
+                            <div class="card-number" id="card-number-preview">•••• •••• •••• ••••</div>
+                            <div class="card-bottom">
+                              <span>CVV:</span>
+                              <div class="cvv" id="cvv-preview">•••</div>
+                            </div>
+                          </div>
+                      
+                          <form class="card-form">
+                            <div class="form-group">
+                              <label for="card-number">Card Number</label>
+                              <input 
+                                type="text" 
+                                id="card-number" 
+                                maxlength="19" 
+                                placeholder="0000 0000 0000 0000"
+                              >
+                            </div>
+                        
+                            <div class="form-group">
+                              <label for="cvv">CVV</label>
+                              <input 
+                                type="text" 
+                                id="cvv" 
+                                maxlength="3" 
+                                placeholder="123"
+                              >
+                            </div>
+                          </form>
+                        </div>
+                        
+  
+                  </div>
+                  
+              </div>
+              <div class="checkout-details">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Your order Details</th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Product</td>
+                      <td>Total</td>
+                    </tr>
+                    <tr>
+                      <td>Strawberry</td>
+                      <td>$85.00</td>
+                    </tr>
+                    <tr>
+                      <td>Berry</td>
+                      <td>$70.00</td>
+                    </tr>
+                    <tr>
+                      <td>Lemon</td>
+                      <td>$35.00</td>
+                    </tr>
+                    <tr>
+                      <td>Subtotal</td>
+                      <td>$190</td>
+                    </tr>
+                    <tr>
+                      <td>Shipping</td>
+                      <td>$50</td>
+                    </tr>
+                    <tr>
+                      <td>Total</td>
+                      <td>$240</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+                <button>Place Order</button>              
+              </div>
+              </div>
+        </section>
+    </main>
+    <footer id="footer">
+      <section id="footer-section">
+        <div class="footer-top">
+          <div class="footer-box">
+            <h2>
+              About us
+              <span>__</span>
+            </h2>
+            <p>
+              Ut enim ad minim veniam perspiciatis unde omnis iste natus error
+              sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae.
+            </p>
+          </div>
+          <div class="footer-box">
+            <h2>
+              Get in Touch
+              <span>__</span>
+            </h2>
+            <ul>
+              <li>34/8, East Hukupara, Gifirtok, Sadan.</li>
+              <li>support@fruitkha.com</li>
+              <li>+00 111 222 3333</li>
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h2>
+              Pages
+              <span>__</span>
+            </h2>
+            <ul>
+              <li>
+                <span><i class="bi bi-chevron-right"></i></span
+                ><a href="./home.html">Home</a>
+              </li>
+              <li>
+                <span><i class="bi bi-chevron-right"></i></span
+                ><a href="./about.html">About</a>
+              </li>
+              <li>
+                <span><i class="bi bi-chevron-right"></i></span
+                ><a href="./contact.html">Contact</a>
+              </li>
+              <li>
+                <span><i class="bi bi-chevron-right"></i></span
+                ><a href="./shop.html">Shop</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h2>
+              Subscribe
+              <span>__</span>
+            </h2>
+            <p>Subscribe to our mailing list to get the latest updates.</p>
+            <div class="box-input">
+              <input type="email" placeholder="Email" />
+              <button><i class="bi bi-telegram"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bootom-copyrights">
+            Copyrights © 2025 - Adil Jabbarlı
+          </div>
+          <div class="footer-bootom-icon">
+            <ul>
+              <li>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+  <script src="../Js/checkout.js"></script>
+  <script src="../Js/navbar.js"></script>
+</html>
