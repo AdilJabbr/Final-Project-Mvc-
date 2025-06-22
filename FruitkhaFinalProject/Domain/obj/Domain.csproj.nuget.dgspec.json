@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adilj\\OneDrive\\Desktop\\FruitkhaFinalProject\\Domain\\Domain.csproj": {}
+    "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\FruitkhaFinalProject\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adilj\\OneDrive\\Desktop\\FruitkhaFinalProject\\Domain\\Domain.csproj": {
+    "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\FruitkhaFinalProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adilj\\OneDrive\\Desktop\\FruitkhaFinalProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\FruitkhaFinalProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\FruitkhaFinalProject\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\FruitkhaFinalProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\adilj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\FruitkhaFinalProject\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\FruitkhaFinalProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

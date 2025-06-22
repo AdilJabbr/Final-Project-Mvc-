@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adilj\\OneDrive\\Desktop\\FruitkhaFinalProject\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\FruitkhaFinalProject\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\FruitkhaFinalProject\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\FruitkhaFinalProject\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\adilj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\FruitkhaFinalProject\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\FruitkhaFinalProject\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
