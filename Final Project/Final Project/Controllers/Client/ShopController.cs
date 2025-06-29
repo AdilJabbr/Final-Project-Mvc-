@@ -1,49 +1,38 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using service.services.ınterfaces;
+using Service.Services.Interfaces;
 
 namespace Final_Project.Controllers.Client
 {
     public class ShopController : Controller
     {
-        private readonly IProductService _productService;
+        private readonly IShopService _shopService;
 
-        public ShopController(IProductService productService)
+        public ShopController(IShopService shopService)
         {
-            _productService = productService;
-        }
-        public async Task<IActionResult> Index()
-        {
-            return View(await _productService.GetAllAsync());
+            _shopService = shopService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> ProductDetail(int id)
+        public IActionResult Shop()
         {
-            var product = await _productService.DetailAsync(id);
-
-            if (product is null) return NotFound();
-
-            return View(product);
+            return View();
         }
-        [HttpGet]
-        public async Task<IActionResult> GetPaginateDatas(int page = 1, int take = 9)
+        public async Task<IActionResult> Index(string? search,
+        int? sort,
+        List<int>? categoryIds,
+        List<int>? brandIds,
+        int? maxPrice,
+        int? minPrice,
+        int pageRow = 1)
         {
-            return View(await _productService.GetPaginateAsync(page, take));
-        }
-
-
-
-
-        [HttpGet]
-        public async Task<IActionResult> SortByPriceAscending()
-        {
-            return View(await _productService.SortByPriceAscending());
+            var shop = await _shopService.GetShop(pageRow, search, sort, categoryIds, brandIds, maxPrice, minPrice);
+            return View(shop);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> SortByPriceDescending()
+        [HttpPost]
+        public IActionResult Search(string search)
         {
-            return View(await _productService.SortByPriceDescending());
+            return RedirectToAction("Index", new { search });
         }
     }
 }

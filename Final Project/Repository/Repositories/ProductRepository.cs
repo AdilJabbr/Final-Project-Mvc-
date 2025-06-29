@@ -140,5 +140,6 @@ namespace Repository.Repositories
         {
             return await dbSet.Skip((page - 1) * take).Take(take).ToListAsync();
         }
+
     }
 }

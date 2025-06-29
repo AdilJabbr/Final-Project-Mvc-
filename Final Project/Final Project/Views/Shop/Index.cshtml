@@ -1,4 +1,34 @@
-﻿
+﻿@using Service.ViewModel.Admin.Shop
+@model ShopVM
+
+@{
+    //int currentPage = Convert.ToInt32(Context.Request.Query["pageRow"].ToString() ?? "1");
+    //int totalPages = (int)Math.Ceiling((double)Model.TotalCount / 1); // 1 — hər səhifədəki məhsul sayı
+    var queryParams = new Dictionary<string, string>();
+
+    foreach (var key in Context.Request.Query.Keys)
+    {
+        if (key != "pageRow")
+        {
+            queryParams[key] = Context.Request.Query[key];
+        }
+    }
+
+    string BuildPageUrl(int page)
+    {
+        var qp = new List<string>();
+        foreach (var kvp in queryParams)
+        {
+            foreach (var val in Context.Request.Query[kvp.Key])
+            {
+                qp.Add($"{kvp.Key}={val}");
+            }
+        }
+        qp.Add($"pageRow={page}");
+        return $"?{string.Join("&", qp)}";
+    }
+}
+
 <main id="shop">
     <section id="shop-background"></section>
     <section id="shop-introduction">
@@ -92,17 +122,20 @@
                     </div>
                 </div>
                 <div class="product-sort">
-                    <form>
+                    <form asp-action="Index" method="get" id="sortForm">
+                        <input type="hidden" name="search" value="@Context.Request.Query["search"]" />
+
                         <label>Sort by:</label>
-                        <select class="select-forms">
-                            <option selected value="0">Featured</option>
-                            <option value="1">Best selling</option>
-                            <option value="2">A-Z</option>
-                            <option value="3">Z-A</option>
-                            <option value="4">Price, low to high</option>
-                            <option value="5">Price, high to low</option>
-                            <option value="6">Date, old to new</option>
-                            <option value="7">Date, new to old</option>
+                        <select class="select-forms" name="sort" onchange="document.getElementById('sortForm').submit()">
+                            @{
+                                var selectedSort = Context.Request.Query["sort"].ToString();
+                            }
+                            <option selected value="0">Default</option>
+                            <option value="1">A-Z</option>
+                            <option value="2">Z-A</option>
+                            <option value="3">Price, low to high</option>
+                            <option value="4">Price, high to low</option>
+                            <option value="5">Date, old to new</option>
                         </select>
                     </form>
                 </div>
@@ -112,233 +145,124 @@
                     <button id="shopsubmenubtn" onclick="shopsubmenubtn()"><i class="bi bi-funnel-fill"></i> Filter and Sort</button>
                 </div>
                 <div></div>
-                <div class="product-sort">
-                    <form>
-                        <label>Sort by:</label>
-                        <select class="select-forms">
-                            <option selected value="0">Featured</option>
-                            <option value="1">Best selling</option>
-                            <option value="2">A-Z</option>
-                            <option value="3">Z-A</option>
-                            <option value="4">Price, low to high</option>
-                            <option value="5">Price, high to low</option>
-                            <option value="6">Date, old to new</option>
-                            <option value="7">Date, new to old</option>
-                        </select>
-                    </form>
-                </div>
+
                 <div class="product-count">Products : <span>10</span></div>
             </div>
             <div class="product-body">
-                <div class="product-filter">
-                    <button class="accordion active">Price   <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
-                    <div class="panel show">
-                        <p><span>From</span><span>To</span></p>
-                        <div class="price-panel">
-                            <input type="number" min="0" placeholder="0">
-                            <span>___</span>
-                            <input type="number" min="1" placeholder="999.00">
-                        </div>
+                <form method="get" asp-action="Index" id="filterForm">
+
+                    <!-- Sort by -->
+                    <div class="product-sort">
+                        <label>Sort by:</label>
+                        <select class="select-forms" name="sort" onchange="document.getElementById('filterForm').submit()">
+                            @{
+                                var selectedSort = Context.Request.Query["sort"].ToString();
+                            }
+                            <option value="0" selected="@(selectedSort == "0" || string.IsNullOrEmpty(selectedSort))">Featured</option>
+                            <option value="1" selected="@(selectedSort == "1")">A-Z</option>
+                            <option value="2" selected="@(selectedSort == "2")">Z-A</option>
+                            <option value="3" selected="@(selectedSort == "3")">Price, low to high</option>
+                            <option value="4" selected="@(selectedSort == "4")">Price, high to low</option>
+
+                        </select>
                     </div>
 
-                    <button class="accordion active">Categories <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
-                    <div class="panel show">
-                        <div class="filter-box">
-                            <div class="checkbox-list">
-                                <label>
-                                    <input type="checkbox" value="Black" />
-                                    <span class="label-text">Black</span>
-                                    <span class="count">(8)</span>
-                                </label>
-                                <label>
-                                    <input type="checkbox" value="black" />
-                                    <span class="label-text">black</span>
-                                    <span class="count">(2)</span>
-                                </label>
-                                <label>
-                                    <input type="checkbox" value="Blue" />
-                                    <span class="label-text">Blue</span>
-                                    <span class="count">(8)</span>
-                                </label>
-                                <label>
-                                    <input type="checkbox" value="blue" />
-                                    <span class="label-text">blue</span>
-                                    <span class="count">(2)</span>
-                                </label>
-                                <label>
-                                    <input type="checkbox" value="Green" />
-                                    <span class="label-text">Green</span>
-                                    <span class="count">(8)</span>
-                                </label>
+
+
+                    <div class="product-filter">
+                        <button class="accordion active">Price   <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                        <div class="panel show">
+                            <p><span>From</span><span>To</span></p>
+                            <div class="price-panel">
+                                <input type="number" name="minPrice" min="0" placeholder="0" value="@Context.Request.Query["minPrice"]" />
+                                <span>___</span>
+                                <input type="number" name="maxPrice" min="1" placeholder="999.00" value="@Context.Request.Query["maxPrice"]" />
                             </div>
                         </div>
 
-                    </div>
+                        <button class="accordion active">Categories <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                        <div class="panel show">
+                            <div class="filter-box">
+                                <div class="checkbox-list">
+                                    @foreach (var item in Model.Categories)
+                                    {
+                                        <label>
+                                            <input type="checkbox" name="categoryIds" value="@item.Id"
+                                                   @(Context.Request.Query["categoryIds"].Contains(item.Id.ToString()) ? "checked" : "") />
+                                            <span class="label-text">@item.Name</span>
+                                        </label>
+                                    }
 
-                    <button class="accordion active">Brand<span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
-                    <div class="panel show">
-                        <div class="filter-box">
-                            <div class="checkbox-list">
-                                <label>
-                                    <input type="checkbox" value="Black" />
-                                    <span class="label-text">Black</span>
-                                    <span class="count">(8)</span>
-                                </label>
-                                <label>
-                                    <input type="checkbox" value="black" />
-                                    <span class="label-text">black</span>
-                                    <span class="count">(2)</span>
-                                </label>
-                                <label>
-                                    <input type="checkbox" value="Blue" />
-                                    <span class="label-text">Blue</span>
-                                    <span class="count">(8)</span>
-                                </label>
-                                <label>
-                                    <input type="checkbox" value="blue" />
-                                    <span class="label-text">blue</span>
-                                    <span class="count">(2)</span>
-                                </label>
-                                <label>
-                                    <input type="checkbox" value="Green" />
-                                    <span class="label-text">Green</span>
-                                    <span class="count">(8)</span>
-                                </label>
+                                </div>
                             </div>
+
                         </div>
 
+                        <button class="accordion active">Brand<span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                        <div class="panel show">
+                            <div class="filter-box">
+                                <div class="checkbox-list">
+                                    @foreach (var item in Model.Brands)
+                                    {
+                                        <label>
+                                            <input type="checkbox" name="brandIds" value="@item.Id"
+                                                   @(Context.Request.Query["brandIds"].Contains(item.Id.ToString()) ? "checked" : "") />
+                                            <span class="label-text">@item.Name</span>
+                                        </label>
+                                    }
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-top: 15px; text-align: center;">
+                            <button type="submit" class="btn btn-primary">Apply Filters</button>
+                        </div>
                     </div>
-                </div>
+                </form>
                 <div class="product-list">
                     <div class="list-cards">
-                        <div class="products-card">
-                            <div class="cart-item">
-                                <div class="cart-item_img">
-                                    <a href="">
-                                        <img src="../Image/Home/Products/product-img-1.jpg"
-                                             alt="" />
-                                    </a>
+                        @foreach (var item in Model.Products)
+                        {
+                            <div class="products-card">
+                                <div class="cart-item">
+                                    <div class="cart-item_img">
+                                        <a href="">
+                                            <img src="@item.IsMainPicture"
+                                                 alt="" />
+                                        </a>
+                                    </div>
                                 </div>
+                                <h3>@item.Name</h3>
+                                <p>
+                                    <span>Per Kg</span>
+                                    @item.Price$
+                                </p>
+                                <a href="">
+                                    <form asp-action="AddToBasket" asp-controller="Basket" method="post">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <button type="submit">
+                                            <i class="bi bi-cart-plus-fill"></i>
+                                            Add to Cart
+                                        </button>
+                                    </form>
+                                </a>
+                                <a href="">
+                                    <form asp-action="AddToWishList" asp-controller="Wishlist" method="post">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <button type="submit">
+                                            <i class="bi bi-cart-plus-fill"></i>
+                                            Add to Wishlist
+                                        </button>
+                                    </form>
+                                </a>
                             </div>
-                            <h3>Strawberry</h3>
-                            <p>
-                                <span>Per Kg</span>
-                                85$
-                            </p>
-                            <a href="">
-                                <button>
-                                    <i class="bi bi-cart-plus-fill"></i>
-                                    Add to Cart
-                                </button>
-                            </a>
-                        </div>
-                        <div class="products-card">
-                            <div class="cart-item">
-                                <div class="cart-item_img">
-                                    <a href="">
-                                        <img src="../Image/Home/Products/product-img-2.jpg"
-                                             alt="" />
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Berry</h3>
-                            <p>
-                                <span>Per Kg</span>
-                                70$
-                            </p>
-                            <a href="">
-                                <button>
-                                    <i class="bi bi-cart-plus-fill"></i>
-                                    Add to Cart
-                                </button>
-                            </a>
-                        </div>
-                        <div class="products-card">
-                            <div class="cart-item">
-                                <div class="cart-item_img">
-                                    <a href="">
-                                        <img src="../Image/Home/Products/product-img-3.jpg"
-                                             alt="" />
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Lemon</h3>
-                            <p>
-                                <span>Per Kg</span>
-                                35$
-                            </p>
-                            <a href="">
-                                <button>
-                                    <i class="bi bi-cart-plus-fill"></i>
-                                    Add to Cart
-                                </button>
-                            </a>
-                        </div>
-                        <div class="products-card">
-                            <div class="cart-item">
-                                <div class="cart-item_img">
-                                    <a href="">
-                                        <img src="../Image/Home/Products/product-img-1.jpg"
-                                             alt="" />
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Strawberry</h3>
-                            <p>
-                                <span>Per Kg</span>
-                                85$
-                            </p>
-                            <a href="">
-                                <button>
-                                    <i class="bi bi-cart-plus-fill"></i>
-                                    Add to Cart
-                                </button>
-                            </a>
-                        </div>
-                        <div class="products-card">
-                            <div class="cart-item">
-                                <div class="cart-item_img">
-                                    <a href="">
-                                        <img src="../Image/Home/Products/product-img-2.jpg"
-                                             alt="" />
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Berry</h3>
-                            <p>
-                                <span>Per Kg</span>
-                                70$
-                            </p>
-                            <a href="">
-                                <button>
-                                    <i class="bi bi-cart-plus-fill"></i>
-                                    Add to Cart
-                                </button>
-                            </a>
-                        </div>
-                        <div class="products-card">
-                            <div class="cart-item">
-                                <div class="cart-item_img">
-                                    <a href="">
-                                        <img src="../Image/Home/Products/product-img-3.jpg"
-                                             alt="" />
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Lemon</h3>
-                            <p>
-                                <span>Per Kg</span>
-                                35$
-                            </p>
-                            <a href="">
-                                <button>
-                                    <i class="bi bi-cart-plus-fill"></i>
-                                    Add to Cart
-                                </button>
-                            </a>
-                        </div>
+
+                        }
+
                     </div>
-                    <div class="list-pagination">
+                    @* <div class="list-pagination">
                         <button class="disable"><i class="bi bi-chevron-double-left"></i></button>
                         <ul>
                             <li><button class="active">1</button></li>
@@ -346,10 +270,25 @@
                             <li><button>3</button></li>
                         </ul>
                         <button><i class="bi bi-chevron-double-right"></i></button>
+                    </div> *@
+
+                    <div class="list-pagination">
+
+                        <ul>
+                            @for (int i = 1; i <= Model.TotalCount; i++)
+                            {
+                                <li>
+                                    <button class="active"
+                                            onclick="location.href='@BuildPageUrl(i)'">
+                                        @i
+                                    </button>
+                                </li>
+                            }
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-   
+
 </main>

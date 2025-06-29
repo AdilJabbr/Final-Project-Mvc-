@@ -19,7 +19,7 @@ namespace Final_Project.Controllers.Client
             var count = await _basketService.GetBasketCountAsync();
             var total = await _basketService.GetBasketTotalAsync();
 
-            return Json(new { success = true, count = count, total = total });
+            return RedirectToAction("index");
         }
 
 

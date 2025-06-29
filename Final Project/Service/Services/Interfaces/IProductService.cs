@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Service.DTOs.Admin.Products;
 using Service.Helpers;
 using Service.Services.Interfaces;
+using Service.ViewModel.Admin.Products;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,6 +44,8 @@ namespace service.services.ınterfaces
 
         //Task AddImageAsync(int productId, IFormFile uploadImage);
         //Task DeleteImageAsync(int productId, int productImageId);
+
+
 
     }
 }

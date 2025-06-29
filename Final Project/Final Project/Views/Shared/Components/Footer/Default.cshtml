@@ -58,17 +58,9 @@
                     </li>
                 </ul>
             </div>
-          @*   <div class="footer-box">
-                <h2>
-                    Subscribe
-                    <span>__</span>
-                </h2>
-                <p>Subscribe to our mailing list to get the latest updates.</p>
-                <div class="box-input">
-                    <input type="email" placeholder="Email" />
-                    <button><i class="bi bi-telegram"></i></button>
-                </div>
-            </div> *@
+            @await Component.InvokeAsync("Subscribe")
+
+
         </div>
         <div class="footer-bottom">
             <div class="footer-bootom-copyrights">

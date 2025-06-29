@@ -43,7 +43,7 @@ namespace Service
 
               services.AddScoped<IWishlistService, WishlistService>();
               services.AddScoped<IBasketService, BasketService>();
-
+              services.AddScoped<IShopService, ShopService>();
             return services;
         }
 

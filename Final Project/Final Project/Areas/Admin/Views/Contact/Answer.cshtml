@@ -1,0 +1,42 @@
+﻿@using Service.ViewModel.Admin.Contact
+@model ContactCreateVM
+
+<form class="forms-sample" asp-action="Answer" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+
+        <h1>Name: @Model.Name</h1>
+        <h1>Email: @Model.Email</h1>
+        
+        <h1>Message: @Model.Message</h1>
+        <label asp-for="Answer"></label>
+        <input asp-for="Answer" class="form-control" />
+        <span asp-validation-for="Answer" class="text-danger"></span>
+
+        <input type="hidden" asp-for="Message" class="form-control" />
+        <input type="hidden" asp-for="Name" class="form-control" />
+        <input type="hidden" asp-for="Email" class="form-control" />
+
+
+        @*   <label asp-for="CategoryId">Choose Category</label>
+
+        <select asp-for="CategoryId" class="form-control" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+
+        <label asp-for="BrandId">Choose Brand</label>
+
+        <select asp-for="BrandId" class="form-control" asp-items="@(new SelectList(ViewBag.Brands, "Id", "Name"))">
+        </select>
+        <span asp-validation-for="BrandId" class="text-danger"></span>
+
+        <input asp-for="UploadImages" class="form-control" id="products" multiple />
+        <span class="text-danger" asp-validation-for="UploadImages"></span> *@
+
+        </div>
+
+
+    </div>
+    <button type="submit" class="btn btn-primary me-2">Submit</button>
+    <a asp-action="Index" class="btn btn-light">Cancel</a>
+</form>

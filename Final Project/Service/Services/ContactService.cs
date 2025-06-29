@@ -67,7 +67,7 @@ namespace Service.Services
 
 
 
-            _emailService.SendEmail(dto.Email, "Dear Customer", dto.Answer);
+            _emailService.Send(dto.Email, "Dear Customer", dto.Answer);
 
             var model = await _contactRepository.GetById(dto.Id);
             if (model == null)

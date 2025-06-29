@@ -3,124 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\areas\\admin\\views\\contact\\answer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\contact\\answer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\areas\\admin\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\components\\homeproducts\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\homeproducts\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\areas\\admin\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\components\\homeoffer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\homeoffer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\controllers\\client\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\client\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\components\\subscribe\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\subscribe\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\controllers\\client\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\client\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\areas\\admin\\views\\subscribe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\subscribe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\areas\\admin\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\viewmodel\\admin\\subscribes\\subsribelistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\viewmodel\\admin\\subscribes\\subsribelistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\viewmodel\\admin\\subscribes\\subscribevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\viewmodel\\admin\\subscribes\\subscribevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\viewmodel\\admin\\subscribes\\subscribecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\viewmodel\\admin\\subscribes\\subscribecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\viewcomponents\\subscribeviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\viewcomponents\\subscribeviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\components\\homerecognizeus\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\homerecognizeus\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\controllers\\client\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\client\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\subscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\subscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F14A031-64AC-4E04-B27F-96CFDA199066}|Domain\\Domain.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\domain\\models\\subscribe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F14A031-64AC-4E04-B27F-96CFDA199066}|Domain\\Domain.csproj|solutionrelative:domain\\models\\subscribe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\interfaces\\isubscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\isubscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\components\\homeadvertisement\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\homeadvertisement\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\viewmodel\\admin\\shop\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\viewmodel\\admin\\shop\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\interfaces\\ishopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\ishopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\viewmodel\\admin\\shop\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\viewmodel\\admin\\shop\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\controllers\\client\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\client\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\interfaces\\ishopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\ishopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\final project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D0A37B-C3C3-41D0-87FE-2471F8C220A7}|Repository\\Repository.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\repository\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0D0A37B-C3C3-41D0-87FE-2471F8C220A7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D0A37B-C3C3-41D0-87FE-2471F8C220A7}|Repository\\Repository.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\repository\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0D0A37B-C3C3-41D0-87FE-2471F8C220A7}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project\\service\\viewmodel\\admin\\products\\productfiltervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\viewmodel\\admin\\products\\productfiltervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,396 +90,266 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T07:37:39.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ContactService.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\ContactService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\ContactService.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\ContactService.cs",
-              "RelativeToolTip": "Service\\Services\\ContactService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAUwEoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T07:29:15.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeToolTip": "Service\\Services\\Interfaces\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T07:28:49.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\EmailService.cs",
               "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\EmailService.cs",
               "RelativeToolTip": "Service\\Services\\EmailService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T07:28:35.23Z",
+              "WhenOpened": "2025-06-29T14:17:45.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Program.cs",
-              "RelativeDocumentMoniker": "Final Project\\Program.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Program.cs",
-              "RelativeToolTip": "Final Project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\ContactService.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\ContactService.cs",
+              "RelativeToolTip": "Service\\Services\\ContactService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwEUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T07:21:07.032Z",
+              "WhenOpened": "2025-06-29T14:15:34.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GlobalExceptionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Middlewares\\GlobalExceptionHandler.cs",
-              "RelativeDocumentMoniker": "Final Project\\Middlewares\\GlobalExceptionHandler.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Middlewares\\GlobalExceptionHandler.cs",
-              "RelativeToolTip": "Final Project\\Middlewares\\GlobalExceptionHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T07:20:30.519Z",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T14:13:07.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Basket\\Index.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Basket\\Index.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Basket\\Index.cshtml*",
-              "RelativeToolTip": "Final Project\\Views\\Basket\\Index.cshtml*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Title": "Answer.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Contact\\Answer.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Contact\\Answer.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Contact\\Answer.cshtml*",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Contact\\Answer.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T19:17:56.333Z",
+              "WhenOpened": "2025-06-29T14:12:54.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T14:06:48.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Contact\\Index.cshtml*",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Contact\\Index.cshtml*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T14:06:37.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeProducts\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\HomeProducts\\Default.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeProducts\\Default.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\HomeProducts\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T14:46:46.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T19:03:15.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SubscribeCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Subscribes\\SubscribeCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModel\\Admin\\Subscribes\\SubscribeCreateVM.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Subscribes\\SubscribeCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModel\\Admin\\Subscribes\\SubscribeCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:55:12.953Z",
+              "WhenOpened": "2025-06-29T14:06:24.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SubscribeController.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Controllers\\SubscribeController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Controllers\\SubscribeController.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Controllers\\SubscribeController.cs",
-              "RelativeToolTip": "Final Project\\Areas\\Admin\\Controllers\\SubscribeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABGAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\Client\\WishlistController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controllers\\Client\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\Client\\WishlistController.cs",
+              "RelativeToolTip": "Final Project\\Controllers\\Client\\WishlistController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:54:13.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SubscribeViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\ViewComponents\\SubscribeViewComponent.cs",
-              "RelativeDocumentMoniker": "Final Project\\ViewComponents\\SubscribeViewComponent.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\ViewComponents\\SubscribeViewComponent.cs",
-              "RelativeToolTip": "Final Project\\ViewComponents\\SubscribeViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:50:53.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\Subscribe\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\Subscribe\\Default.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\Subscribe\\Default.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\Subscribe\\Default.cshtml",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAowJ8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T14:46:12.305Z",
+              "WhenOpened": "2025-06-29T13:59:22.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeOffer\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\HomeOffer\\Default.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeOffer\\Default.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\HomeOffer\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T14:47:38.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SubscribeVM.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Subscribes\\SubscribeVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModel\\Admin\\Subscribes\\SubscribeVM.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Subscribes\\SubscribeVM.cs",
-              "RelativeToolTip": "Service\\ViewModel\\Admin\\Subscribes\\SubscribeVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\Client\\BasketController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controllers\\Client\\BasketController.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\Client\\BasketController.cs",
+              "RelativeToolTip": "Final Project\\Controllers\\Client\\BasketController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:55:55.602Z",
+              "WhenOpened": "2025-06-29T13:52:41.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Subscribe\\Index.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Subscribe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Areas\\Admin\\Views\\Subscribe\\Index.cshtml",
-              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Subscribe\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T14:57:31.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SubsribeListVM.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Subscribes\\SubsribeListVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModel\\Admin\\Subscribes\\SubsribeListVM.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Subscribes\\SubsribeListVM.cs",
-              "RelativeToolTip": "Service\\ViewModel\\Admin\\Subscribes\\SubsribeListVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\ProductService.cs",
+              "RelativeToolTip": "Service\\Services\\ProductService.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAiwF4BAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:56:33.16Z",
+              "WhenOpened": "2025-06-29T11:10:17.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeRecognizeUs\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\HomeRecognizeUs\\Default.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeRecognizeUs\\Default.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\HomeRecognizeUs\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T14:46:41.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Final Project\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\Client\\ShopController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controllers\\Client\\ShopController.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\Client\\ShopController.cs",
+              "RelativeToolTip": "Final Project\\Controllers\\Client\\ShopController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:43:20.852Z",
+              "WhenOpened": "2025-06-29T10:51:48.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T14:43:25.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Subscribe.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Domain\\Models\\Subscribe.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Subscribe.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Domain\\Models\\Subscribe.cs",
-              "RelativeToolTip": "Domain\\Models\\Subscribe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:40:13.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SubscribeService.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\SubscribeService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\SubscribeService.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\SubscribeService.cs",
-              "RelativeToolTip": "Service\\Services\\SubscribeService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIBJwG8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:38:50.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ISubscribeService.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\Interfaces\\ISubscribeService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\ISubscribeService.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\Interfaces\\ISubscribeService.cs",
-              "RelativeToolTip": "Service\\Services\\Interfaces\\ISubscribeService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:34:26.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SubscribeController.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\Client\\SubscribeController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Controllers\\Client\\SubscribeController.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Controllers\\Client\\SubscribeController.cs",
-              "RelativeToolTip": "Final Project\\Controllers\\Client\\SubscribeController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:33:22.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAlwEYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T14:28:25.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeAdvertisement\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\HomeAdvertisement\\Default.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeAdvertisement\\Default.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\HomeAdvertisement\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T14:12:16.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "Final Project\\Views\\Shop\\Index.cshtml",
               "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shop\\Index.cshtml",
               "RelativeToolTip": "Final Project\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAmwP8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T13:25:29.815Z",
+              "WhenOpened": "2025-06-29T10:29:05.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 10,
               "Title": "ShopService.cs",
               "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\ShopService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\ShopService.cs",
               "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\ShopService.cs",
               "RelativeToolTip": "Service\\Services\\ShopService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAIBJwBQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T12:42:00.83Z",
+              "WhenOpened": "2025-06-29T10:37:36.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ShopVM.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Shop\\ShopVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModel\\Admin\\Shop\\ShopVM.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Shop\\ShopVM.cs",
-              "RelativeToolTip": "Service\\ViewModel\\Admin\\Shop\\ShopVM.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T12:40:01.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 13,
               "Title": "IShopService.cs",
               "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\Interfaces\\IShopService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IShopService.cs",
               "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\Interfaces\\IShopService.cs",
               "RelativeToolTip": "Service\\Services\\Interfaces\\IShopService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T12:35:16.962Z",
+              "WhenOpened": "2025-06-29T11:57:31.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShopVM.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Shop\\ShopVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModel\\Admin\\Shop\\ShopVM.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Shop\\ShopVM.cs",
+              "RelativeToolTip": "Service\\ViewModel\\Admin\\Shop\\ShopVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:35:37.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwGcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T10:24:42.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Service\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAywDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:09:52.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Repository\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Repository\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAawBwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:09:04.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Repository\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Repository\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:08:22.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductFilterVM.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Products\\ProductFilterVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModel\\Admin\\Products\\ProductFilterVM.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project\\Service\\ViewModel\\Admin\\Products\\ProductFilterVM.cs",
+              "RelativeToolTip": "Service\\ViewModel\\Admin\\Products\\ProductFilterVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:07:33.406Z",
               "EditorCaption": ""
             }
           ]

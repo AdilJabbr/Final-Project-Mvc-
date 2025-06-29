@@ -1,5 +1,6 @@
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\appsettings.json
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\bundleconfig.json
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Final Project.staticwebassets.runtime.json
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Final Project.staticwebassets.endpoints.json
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Final Project.exe
@@ -7,27 +8,20 @@ C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Fin
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Final Project.runtimeconfig.json
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Final Project.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Final Project.pdb
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.AssemblyInfoInputs.cache
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.AssemblyInfo.cs
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.csproj.CoreCompileInputs.cache
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.RazorAssemblyInfo.cache
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.RazorAssemblyInfo.cs
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\scopedcss\bundle\Final Project.styles.css
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\scopedcss\projectbundle\Final Project.bundle.scp.css
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\refint\Final Project.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.pdb
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.genruntimeconfig.cache
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\ref\Final Project.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Humanizer.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\MailKit.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Build.dll
@@ -42,12 +36,39 @@ C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Mic
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
@@ -56,6 +77,7 @@ C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Mic
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\MimeKit.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\NuGet.Common.dll
@@ -67,6 +89,18 @@ C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\NuG
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Stripe.net.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -74,10 +108,17 @@ C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Sys
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\ar\Humanizer.resources.dll
@@ -218,85 +259,44 @@ C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\ru\
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.csproj.AssemblyReference.cache
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Pr.B69720BE.Up2Date
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Domain.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Repository.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Service.dll
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Service.pdb
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Domain.pdb
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Repository.pdb
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\bundleconfig.json
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.csproj.AssemblyReference.cache
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.AssemblyInfoInputs.cache
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.AssemblyInfo.cs
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.csproj.CoreCompileInputs.cache
 C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\FluentValidation.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\MailKit.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\MimeKit.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Stripe.net.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\CloudinaryDotNet.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.AspNetCore.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Sinks.Console.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Sinks.File.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.IO.Pipelines.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.RazorAssemblyInfo.cache
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.RazorAssemblyInfo.cs
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\scopedcss\bundle\Final Project.styles.css
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\scopedcss\projectbundle\Final Project.bundle.scp.css
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Pr.B69720BE.Up2Date
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\refint\Final Project.dll
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.pdb
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\Final Project.genruntimeconfig.cache
+C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\obj\Debug\net8.0\ref\Final Project.dll

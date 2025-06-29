@@ -1,0 +1,67 @@
+﻿@using Service.DTOs.Admin.Products
+@using Service.ViewModel.Admin.Contact
+@model List<ContactVM>
+
+<div style="background-color: #f7f8fc; padding: 20px; margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h1 style="color: #2a3547; font-size: 24px; margin: 0;">Slider Yönetimi</h1>
+          
+
+        </div>
+
+        <div style="background-color: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); overflow: hidden;">
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead style="background-color: #f5f5f5; border-bottom: 1px solid #e0e0e0;">
+                    <tr>
+                        <th style="padding: 12px 15px; text-align: left; font-weight: 600; color: #444; font-size: 14px;">ID</th>
+                        <th style="padding: 12px 15px; text-align: left; font-weight: 600; color: #444; font-size: 14px;">Name</th>
+
+                        <th style="padding: 12px 15px; text-align: left; font-weight: 600; color: #444; font-size: 14px;">Email</th>
+                        <th style="padding: 12px 15px; text-align: left; font-weight: 600; color: #444; font-size: 14px;">IsAnswer</th>
+
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+                    <tbody>
+                        <tr style="border-bottom: 1px solid #f0f0f0;">
+                            <td style="padding: 12px 15px; font-size: 14px; color: #333; vertical-align: middle;">@item.Id</td>
+                          
+                           <td style="padding: 12px 15px; font-size: 14px; color: #333; vertical-align: middle;"> @item.Name</td>
+                            <td style="padding: 12px 15px; font-size: 14px; color: #333; vertical-align: middle;"> @item.Email</td>
+                            <td style="padding: 12px 15px; font-size: 14px; color: #333; vertical-align: middle;"> @item.IsAnswer</td>
+
+                           
+
+                            <td style="padding: 12px 15px; font-size: 14px; color: #333; vertical-align: middle;">
+                                <div style="display: flex; gap: 8px;">
+                                    <a asp-action="Answer" asp-route-id="@item.Id" style="background-color: #9c27b0; color: white; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-size: 13px; display: flex; align-items: center; gap: 4px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                        </svg>
+                                        Answer
+                                    </a>
+                                  
+                                    <form class="d-inline" asp-action="Delete" asp-route-id="@item.Id" method="post">
+                                        <button type="submit" style="background-color: #f44336; color: white; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-size: 13px; display: flex; align-items: center; gap: 4px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <polyline points="3 6 5 6 21 6"></polyline>
+                                                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                            </svg>
+                                            Delete
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+

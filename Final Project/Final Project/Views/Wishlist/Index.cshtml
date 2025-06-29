@@ -1,0 +1,136 @@
+﻿@using Service.ViewModel.Admin.Wishlists
+@model WishListCardVM
+
+
+<main id="card">
+    <section id="card-background"></section>
+    <section id="card-introduction">
+        <p>Fresh and Organic</p>
+        <h1>Cart</h1>
+    </section>
+    <section id="card-tables">
+        <div class="tables">
+            <div class="card-table">
+                <table>
+                    <thead>
+
+                        <tr>
+                            <th></th>
+                            <th>Product Image</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                           @*  <th>Quantity</th>
+                            <th>Total</th> *@
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Prroduct)
+                        {
+                            <tr>
+
+                                <td class="product-remove"><button><i class="bi bi-trash3-fill" href="javascript:void(0);" onclick="removeFromBasket(this, @item.ProductId)"></i></button></td>
+                                <td class="product-img"><img src=@item.ImageUrl alt=""></td>
+                                <td class="product-name">@item.Name</td>
+                                <td class="product-price">$<span>@item.Price</span></td>
+                               @*  <td class="">
+                                    <div>
+                                        <div class="product-quantity">
+                                            <button class="text-danger" onclick="addToBasket(@item.ProductId)"> + </button>
+                                            <span class="product-count" id="product-count-@item.ProductId">
+                                                @item.Count
+                                            </span>
+                                            <button class="text-danger" onclick="RemoveToBasket(@item.ProductId)"> - </button>
+                                        </div>
+                                    </div>
+                                </td> *@
+                                @* <td class="product-quantity"><input type="number" id="quantity" name="quantity" min="1"</td> *@
+                              @*   <td class="product-total" id="product-total-@item.ProductId">
+                                    $@item.TotalProductPrice.ToString("0.00")
+
+                                </td> *@
+                            </tr>
+                        }
+
+                    </tbody>
+
+
+                </table>
+            </div>
+            <div class="card-totals">
+               @*  <div class="total-table">
+                    <table>
+                        <tr>
+                            <th>Total Price</th>
+                        </tr>
+                        <tr class="sum-total">
+                            <td>$<span>@Model.Product.Sum(p => p.ProductPrice)</span></td>
+                        </tr>
+
+                    </table>
+                </div> *@
+                <div class="total-btn">
+                    <a asp-controller="Shop" asp-action="Index">Update Shop</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script>
+      function removeFromBasket(element, productId) {
+        fetch(`/basket/delete/${productId}`, {
+            method: 'DELETE'
+        })
+        .then(res => {
+            if (res.ok) {
+                const row = element.closest('tr'); // Kliklənən `a`-nın olduğu `tr`-ni tapırıq
+                if (row) row.remove(); // Sətri silirik
+
+                // Total və count yeniləyirik
+                fetch('/basket/GetCountAndTotal')
+                    .then(res => res.json())
+                    .then(data => {
+                        document.getElementById("basket-count").innerText = data.count;
+                                document.getElementById("basketViewTotal").innerText = data.total.toFixed(2) + " " + "$";
+
+                                document.getElementById("basket-total").innerText = data.total.toFixed(2) + " " + "$";
+                    });
+            } else {
+                alert("Silinmə zamanı xəta baş verdi.");
+            }
+        })
+        .catch(error => {
+            console.error('Xəta:', error);
+            alert("Xəta baş verdi.");
+        });
+    }
+
+
+     document.addEventListener("DOMContentLoaded", function () {
+            const plusButtons = document.querySelectorAll("button[onclick^='addToBasket']");
+            const minusButtons = document.querySelectorAll("button[onclick^='RemoveToBasket']");
+
+            plusButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const span = button.parentElement.querySelector(".product-count");
+                    if (span) {
+                        let count = parseInt(span.innerText.trim());
+                        span.innerText = count + 1;
+                    }
+                });
+            });
+
+            minusButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const span = button.parentElement.querySelector(".product-count");
+                    if (span) {
+                        let count = parseInt(span.innerText.trim());
+                        if (count > 1) {
+                            span.innerText = count - 1;
+                        }
+                    }
+                });
+            });
+        });
+</script>

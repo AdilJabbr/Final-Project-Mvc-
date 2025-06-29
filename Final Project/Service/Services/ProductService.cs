@@ -14,6 +14,7 @@ using Service.Helpers;
 using Service.Helpers.Exceptions;
 using Service.Helpers.Extensions;
 using Service.Services.Interfaces;
+using Service.ViewModel.Admin.Products;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -347,7 +348,7 @@ namespace Service.Services
             {
                 errors.Add(" Images are required");
             }
-            await productRepo.CreateAsync(model);
+            await productRepo.CreateAsync(model);   
 
             foreach (var image in dto.ProductImages)
             {

@@ -23,7 +23,8 @@ namespace Final_Project.Controllers.Client
         public async Task<IActionResult> AddToWishList(int id)
         {
             await _wishlistService.AddToWishListAsync(id);
-            return Json(new { success = true });
+            return RedirectToAction("index");
+
         }
 
         public async Task<IActionResult> WishlistCount()
