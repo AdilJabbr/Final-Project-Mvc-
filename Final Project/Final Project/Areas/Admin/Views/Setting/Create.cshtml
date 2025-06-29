@@ -1,0 +1,22 @@
+﻿@using Service.ViewModel.Admin.Settings
+@model SettingCreateVM
+
+<div class="container-fluid mt-4">
+    <form class="forms-sample" asp-action="Create" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly"></div>
+
+        <div class="form-group" >
+            <label for="sliderinfo">Title</label>
+            <input asp-for="Key" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Key"></span>
+
+            <div class="input-group">
+                <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                <input asp-for="Value" type="file" class="form-control" id="inputGroupFile01" />
+            </div>
+            <span asp-validation-for="Value" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>

@@ -1,0 +1,34 @@
+﻿@using Service.ViewModel.Admin.Employees
+@model EmployeeEditVM
+
+<div class="container-fluid " style="margin-top:150px; margin-left:300px;width:800px;">
+    <form class="forms-sample" asp-action="Edit" enctype="multipart/form-data" method="post">
+        <div class="form-group">
+
+           
+            <label for="sliderinfo">Name</label>
+            <input asp-for="Name" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Name"></span>
+
+            <label for="sliderinfo">Position</label>
+            <input asp-for="Position" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Position"></span>
+
+            <label for="sliderinfo">Description</label>
+            <input asp-for="Description" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Description"></span>
+
+            <input asp-for="ImageUrl" class="form-control" id="deparment" maxlength="10000">
+            <span class="text-danger" asp-validation-for="ImageUrl"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>
+
+<script src="//cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
+
+<script>
+    CKEDITOR.replace('editor')
+</script>

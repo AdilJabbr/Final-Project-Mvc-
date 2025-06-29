@@ -1,0 +1,74 @@
+﻿@using Service.DTOs.Admin.Products
+@model ProductCreateVM
+
+<form class="forms-sample" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+
+        <label asp-for="Count"></label>
+        <textarea asp-for="Count" class="form-control"></textarea>
+
+      @*   <label asp-for="CategoryId">Choose Category</label>
+
+        <select asp-for="CategoryId" class="form-control" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+
+        <label asp-for="BrandId">Choose Brand</label>
+
+        <select asp-for="BrandId" class="form-control" asp-items="@(new SelectList(ViewBag.Brands, "Id", "Name"))">
+        </select>
+        <span asp-validation-for="BrandId" class="text-danger"></span>
+
+        <input asp-for="UploadImages" class="form-control" id="products" multiple />
+        <span class="text-danger" asp-validation-for="UploadImages"></span> *@
+
+
+        <div class="form-group">
+            <label asp-for="Categories"></label>
+            <select asp-for="CategoryId" asp-items="Model.Categories" class="form-control">
+                <option value="">Kateqoriya seçin</option>
+            </select>
+        </div>
+        <span asp-validation-for="Categories" class="text-danger"></span>
+
+        <div class="form-group">
+            <label asp-for="BrandId"></label>
+            <select asp-for="BrandId" asp-items="Model.Brands" class="form-control">
+                <option value="">Kateqoriya seçin</option>
+            </select>
+        </div>
+        <span asp-validation-for="BrandId" class="text-danger"></span>
+
+
+
+        <div class="input-group">
+            <label class="input-group-text" for="inputGroupFile01">Upload</label>
+            <input asp-for="MainImageUrl" type="file" class="form-control" id="inputGroupFile01" />
+        </div>
+
+        <span asp-validation-for="MainImageUrl" class="text-danger"></span>
+
+
+
+        <div class="input-group">
+            <label class="input-group-text" for="inputGroupFile01">Upload</label>
+            <input asp-for="ProductImages" type="file" class="form-control" id="inputGroupFile01" multiple />
+        </div>
+
+        <span asp-validation-for="ProductImages" class="text-danger"></span>
+
+    </div>
+    <button type="submit" class="btn btn-primary me-2">Submit</button>
+    <a asp-action="Index" class="btn btn-light">Cancel</a>
+</form>

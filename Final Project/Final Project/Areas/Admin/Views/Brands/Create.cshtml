@@ -1,0 +1,27 @@
+﻿@using Service.ViewModel.Admin.Brands
+@model BrandCreateVM
+
+<div class="container-fluid mt-4">
+    <form class="forms-sample" asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="sliderinfo">Name</label>
+            <input asp-for="Name" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Name"></span>
+
+
+            <label for="sliderinfo">Image</label>
+
+
+            <input asp-for="ImageFile" type="file" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="ImageFile"></span>
+        </div>
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>
+
+<script src="//cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
+
+<script>
+    CKEDITOR.replace('editor')
+</script>

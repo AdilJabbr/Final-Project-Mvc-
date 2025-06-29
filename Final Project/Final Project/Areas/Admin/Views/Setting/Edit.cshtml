@@ -1,0 +1,25 @@
+﻿@using Service.ViewModel.Admin.Settings
+@model SettingEditVM
+
+<div class="container-fluid " style="margin-top:150px; margin-left:300px;width:800px;">
+    <form class="forms-sample" asp-action="Edit" enctype="multipart/form-data" method="post">
+        <div asp-validation-summary="ModelOnly"></div>
+
+        <div class="form-group">
+            <h3>Setting Edit</h3>
+            <h2> @Model.Key</h2>
+
+            <label for="sliderinfo">Value</label>
+            <input asp-for="Value"  type="text" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Value"></span>
+
+            <label for="sliderinfo">Upload image</label>
+            <input asp-for="UploadedImage" type="file" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="UploadedImage"></span>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>

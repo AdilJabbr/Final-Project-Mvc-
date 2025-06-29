@@ -1,0 +1,95 @@
+﻿@using Service.ViewModel.Admin.Brands
+@model IEnumerable<BrandVM>
+<footer id="footer">
+    <button id="scrollToTop">
+        ↑
+    </button>
+    <section id="logo-carousel-section">
+        <div class="container">
+            <div class="logo-carousel">
+                @foreach (var item in Model)
+                {
+                    <div class="single-logo-item"><img src="@item.ImageUrl" alt="Logo 1"></div>
+                }               
+            </div>
+        </div>
+    </section>
+    <section id="footer-section">
+        <div class="footer-top">
+            <div class="footer-box">
+                <h2>
+                    About us
+                    <span>__</span>
+                </h2>
+                <p>
+                    Ut enim ad minim veniam perspiciatis unde omnis iste natus error
+                    sit voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae.
+                </p>
+            </div>
+            <div class="footer-box">
+                <h2>
+                    Get in Touch
+                    <span>__</span>
+                </h2>
+                <ul>
+                    <li>34/8, East Hukupara, Gifirtok, Sadan.</li>
+                    <li>support@fruitkha.com</li>
+                    <li>+00 111 222 3333</li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h2>
+                    Pages
+                    <span>__</span>
+                </h2>
+                <ul>
+                    <li>
+                        <span><i class="bi bi-chevron-right"></i></span><a href="./home.html">Home</a>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-chevron-right"></i></span><a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-chevron-right"></i></span><a href="./contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-chevron-right"></i></span><a href="./shop.html">Shop</a>
+                    </li>
+                </ul>
+            </div>
+          @*   <div class="footer-box">
+                <h2>
+                    Subscribe
+                    <span>__</span>
+                </h2>
+                <p>Subscribe to our mailing list to get the latest updates.</p>
+                <div class="box-input">
+                    <input type="email" placeholder="Email" />
+                    <button><i class="bi bi-telegram"></i></button>
+                </div>
+            </div> *@
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bootom-copyrights">
+                Copyrights © 2025 - Adil Jabbarlı
+            </div>
+            <div class="footer-bootom-icon">
+                <ul>
+                    <li>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</footer>

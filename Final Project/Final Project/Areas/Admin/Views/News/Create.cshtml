@@ -1,0 +1,31 @@
+﻿@using Service.ViewModel.Admin.News
+@model NewsEditVM
+
+<div class="container-fluid mt-4">
+    <form class="forms-sample" asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="sliderinfo">Title</label>
+            <input asp-for="Title" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Title"></span>
+
+            <label for="sliderinfo">Description</label>
+            <input asp-for="Description" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Description"></span>
+
+            <label for="sliderinfo">Tag</label>
+            <input asp-for="Tag" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="Tag"></span>
+
+            <input asp-for="ImageUrl" class="form-control" id="sliderinfo" maxlength="1000">
+            <span class="text-danger" asp-validation-for="ImageUrl"></span>
+        </div>
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>
+
+<script src="//cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
+
+<script>
+    CKEDITOR.replace('editor')
+</script>

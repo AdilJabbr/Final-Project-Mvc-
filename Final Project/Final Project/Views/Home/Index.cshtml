@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<main id="home">
+    @await Component.InvokeAsync("HomeIntroductionAndBackground") 
+    @await Component.InvokeAsync("HomeFeatures")
+    @await Component.InvokeAsync("HomeProducts")
+    @await Component.InvokeAsync("HomeOffer")
+    @await Component.InvokeAsync("HomeAdvertisement")
+    @await Component.InvokeAsync("HomeBanner") 
+    @await Component.InvokeAsync("Subscribe") 
+</main>

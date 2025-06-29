@@ -1,0 +1,29 @@
+﻿@using Service.ViewModel.Admin.News
+@model NewsVM
+<main id="blog">
+    <section id="blog-background"></section>
+    <section id="blog-introduction">
+        <p>S2mle 100les</p>
+        <h1>New</h1>
+    </section>
+    <section id="blog-new">
+        <div class="new-detail">
+            <div class="new-detail-img">
+                <img src=@Model.ImageUrl alt="">
+            </div>
+            <div class="new-detail-title">
+                <div class="meta-detail">
+                    <span><i class="bi bi-person"></i> @Model.Title </span>
+                    @* <span><i class="bi bi-calendar3"></i>  30 may, 2025</span> *@
+                    <span># @Model.Tag</span>
+                </div>
+                @* <h2>Pomegranate can prevent heart disease</h2> *@
+                <p>
+                   @Model.Description
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+</main>

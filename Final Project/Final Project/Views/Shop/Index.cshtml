@@ -1,0 +1,355 @@
+﻿
+<main id="shop">
+    <section id="shop-background"></section>
+    <section id="shop-introduction">
+        <p>Fresh and Organic</p>
+        <h1>Shop</h1>
+    </section>
+    <section id="shop-products">
+        <div class="shop-product">
+            <div class="shop-submenu ">
+                <div class="submenu-logo">
+                    <img src="../Image/Navbar/logo.png" alt="">
+                    <button id="closeshopsubmenubtn" onclick="closeshopsubmenubtn()"><i class="bi bi-x-lg"></i></button>
+                </div>
+                <div class="product-filter">
+                    <button class="accordion ">Price   <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                    <div class="panel ">
+                        <p><span>From</span><span>To</span></p>
+                        <div class="price-panel">
+                            <input type="number" min="0" placeholder="0">
+                            <span>___</span>
+                            <input type="number" min="1" placeholder="999.00">
+                        </div>
+                    </div>
+
+                    <button class="accordion  ">Categories <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                    <div class="panel ">
+                        <div class="filter-box">
+                            <div class="checkbox-list">
+                                <label>
+                                    <input type="checkbox" value="Black" />
+                                    <span class="label-text">Black</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="black" />
+                                    <span class="label-text">black</span>
+                                    <span class="count">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Blue" />
+                                    <span class="label-text">Blue</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="blue" />
+                                    <span class="label-text">blue</span>
+                                    <span class="count">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Green" />
+                                    <span class="label-text">Green</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="accordion">Brand<span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                    <div class="panel   ">
+                        <div class="filter-box">
+                            <div class="checkbox-list">
+                                <label>
+                                    <input type="checkbox" value="Black" />
+                                    <span class="label-text">Black</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="black" />
+                                    <span class="label-text">black</span>
+                                    <span class="count">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Blue" />
+                                    <span class="label-text">Blue</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="blue" />
+                                    <span class="label-text">blue</span>
+                                    <span class="count">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Green" />
+                                    <span class="label-text">Green</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-sort">
+                    <form>
+                        <label>Sort by:</label>
+                        <select class="select-forms">
+                            <option selected value="0">Featured</option>
+                            <option value="1">Best selling</option>
+                            <option value="2">A-Z</option>
+                            <option value="3">Z-A</option>
+                            <option value="4">Price, low to high</option>
+                            <option value="5">Price, high to low</option>
+                            <option value="6">Date, old to new</option>
+                            <option value="7">Date, new to old</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="product-header">
+                <div class="tablet-filter">
+                    <button id="shopsubmenubtn" onclick="shopsubmenubtn()"><i class="bi bi-funnel-fill"></i> Filter and Sort</button>
+                </div>
+                <div></div>
+                <div class="product-sort">
+                    <form>
+                        <label>Sort by:</label>
+                        <select class="select-forms">
+                            <option selected value="0">Featured</option>
+                            <option value="1">Best selling</option>
+                            <option value="2">A-Z</option>
+                            <option value="3">Z-A</option>
+                            <option value="4">Price, low to high</option>
+                            <option value="5">Price, high to low</option>
+                            <option value="6">Date, old to new</option>
+                            <option value="7">Date, new to old</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="product-count">Products : <span>10</span></div>
+            </div>
+            <div class="product-body">
+                <div class="product-filter">
+                    <button class="accordion active">Price   <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                    <div class="panel show">
+                        <p><span>From</span><span>To</span></p>
+                        <div class="price-panel">
+                            <input type="number" min="0" placeholder="0">
+                            <span>___</span>
+                            <input type="number" min="1" placeholder="999.00">
+                        </div>
+                    </div>
+
+                    <button class="accordion active">Categories <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                    <div class="panel show">
+                        <div class="filter-box">
+                            <div class="checkbox-list">
+                                <label>
+                                    <input type="checkbox" value="Black" />
+                                    <span class="label-text">Black</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="black" />
+                                    <span class="label-text">black</span>
+                                    <span class="count">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Blue" />
+                                    <span class="label-text">Blue</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="blue" />
+                                    <span class="label-text">blue</span>
+                                    <span class="count">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Green" />
+                                    <span class="label-text">Green</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="accordion active">Brand<span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
+                    <div class="panel show">
+                        <div class="filter-box">
+                            <div class="checkbox-list">
+                                <label>
+                                    <input type="checkbox" value="Black" />
+                                    <span class="label-text">Black</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="black" />
+                                    <span class="label-text">black</span>
+                                    <span class="count">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Blue" />
+                                    <span class="label-text">Blue</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="blue" />
+                                    <span class="label-text">blue</span>
+                                    <span class="count">(2)</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" value="Green" />
+                                    <span class="label-text">Green</span>
+                                    <span class="count">(8)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-list">
+                    <div class="list-cards">
+                        <div class="products-card">
+                            <div class="cart-item">
+                                <div class="cart-item_img">
+                                    <a href="">
+                                        <img src="../Image/Home/Products/product-img-1.jpg"
+                                             alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>Strawberry</h3>
+                            <p>
+                                <span>Per Kg</span>
+                                85$
+                            </p>
+                            <a href="">
+                                <button>
+                                    <i class="bi bi-cart-plus-fill"></i>
+                                    Add to Cart
+                                </button>
+                            </a>
+                        </div>
+                        <div class="products-card">
+                            <div class="cart-item">
+                                <div class="cart-item_img">
+                                    <a href="">
+                                        <img src="../Image/Home/Products/product-img-2.jpg"
+                                             alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>Berry</h3>
+                            <p>
+                                <span>Per Kg</span>
+                                70$
+                            </p>
+                            <a href="">
+                                <button>
+                                    <i class="bi bi-cart-plus-fill"></i>
+                                    Add to Cart
+                                </button>
+                            </a>
+                        </div>
+                        <div class="products-card">
+                            <div class="cart-item">
+                                <div class="cart-item_img">
+                                    <a href="">
+                                        <img src="../Image/Home/Products/product-img-3.jpg"
+                                             alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>Lemon</h3>
+                            <p>
+                                <span>Per Kg</span>
+                                35$
+                            </p>
+                            <a href="">
+                                <button>
+                                    <i class="bi bi-cart-plus-fill"></i>
+                                    Add to Cart
+                                </button>
+                            </a>
+                        </div>
+                        <div class="products-card">
+                            <div class="cart-item">
+                                <div class="cart-item_img">
+                                    <a href="">
+                                        <img src="../Image/Home/Products/product-img-1.jpg"
+                                             alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>Strawberry</h3>
+                            <p>
+                                <span>Per Kg</span>
+                                85$
+                            </p>
+                            <a href="">
+                                <button>
+                                    <i class="bi bi-cart-plus-fill"></i>
+                                    Add to Cart
+                                </button>
+                            </a>
+                        </div>
+                        <div class="products-card">
+                            <div class="cart-item">
+                                <div class="cart-item_img">
+                                    <a href="">
+                                        <img src="../Image/Home/Products/product-img-2.jpg"
+                                             alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>Berry</h3>
+                            <p>
+                                <span>Per Kg</span>
+                                70$
+                            </p>
+                            <a href="">
+                                <button>
+                                    <i class="bi bi-cart-plus-fill"></i>
+                                    Add to Cart
+                                </button>
+                            </a>
+                        </div>
+                        <div class="products-card">
+                            <div class="cart-item">
+                                <div class="cart-item_img">
+                                    <a href="">
+                                        <img src="../Image/Home/Products/product-img-3.jpg"
+                                             alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <h3>Lemon</h3>
+                            <p>
+                                <span>Per Kg</span>
+                                35$
+                            </p>
+                            <a href="">
+                                <button>
+                                    <i class="bi bi-cart-plus-fill"></i>
+                                    Add to Cart
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list-pagination">
+                        <button class="disable"><i class="bi bi-chevron-double-left"></i></button>
+                        <ul>
+                            <li><button class="active">1</button></li>
+                            <li><button>2</button></li>
+                            <li><button>3</button></li>
+                        </ul>
+                        <button><i class="bi bi-chevron-double-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+</main>

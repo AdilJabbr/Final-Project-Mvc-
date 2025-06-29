@@ -1,0 +1,49 @@
+﻿@using Service.DTOs.Admin.Products
+@model IEnumerable<ProductVM>
+
+<section id="home-products">
+    <div class="products">
+        <div class="products-header">
+            <p>
+                Best Seller
+            </p>
+        </div>
+        <div class="products-cards">
+          
+          @foreach (var item in Model.ToList().Take(5))
+            {
+                <div class="products-card">
+                    <div class="cart-item">
+                        <div class="cart-item_img">
+                            <a href="">
+                                <img src="@item.IsMainPicture" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <h3> @item.Name</h3>
+                    <p>
+                        <span>Per Kg</span>
+                        @item.Price
+                    </p>
+                    <a href="">
+                        <button>
+                            <a href="javascript:void(0);" onclick="addToBasket(@item.Id)">
+                                <i class="bi bi-cart-plus-fill"></i>
+                            </a>
+                            Add to Cart
+                        </button>
+                        <button>
+                            <a href="javascript:void(0);" onclick="addToWishList(@item.Id)">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            Add to Wishlist
+                        </button>
+                    </a>
+                </div>
+
+            }
+               
+        </div>
+    </div>
+   
+</section>

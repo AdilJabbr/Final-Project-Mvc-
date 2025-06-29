@@ -1,0 +1,90 @@
+﻿@model RegisterVM
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<main id="login-register">
+    <section id="Sing-in_up-section">
+        <div class="registration">
+            <div id="sign-up">
+                <h1>Create account</h1>
+
+                @* <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                <input type="email" placeholder="Email">
+                <span class="password-container">
+                    <input type="password" class="password-input" placeholder="Password">
+                    <button type="button" class="toggle-password">
+                        <i class="bi bi-eye"></i>
+                    </button>
+                </span>
+                <div class="sing-up-btn">
+                    <button class="sign-btn">CREATE</button>
+                    <button class="sign-up-link">
+                        <a href="./Shop.html">Return to store <a>
+                    </button>
+                </div> *@
+
+                <form method="post" asp-controller="Account" asp-action="Register">
+                    <div class="form-group">
+                        <label asp-for="FullName" class="form-label">Fullname</label>
+                        <input asp-for="FullName" type="text" id="fullname" required class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="UserName" class="form-label">Username</label>
+                        <input asp-for="UserName" type="text" id="username" required class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Email" class="form-label">
+                            Email Address
+                        </label>
+                        <input type="email" id="email" asp-for="Email" required class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Password" class="form-label">Password</label>
+                        <div class="password-wrapper">
+                            <input type="password" id="passwordInput" asp-for="Password" required
+                                   class="form-input">
+                            <button type="button" class="toggle-password"
+                                    onclick="togglePassword('passwordInput', 'toggleIcon')">
+                                <i class="fas fa-eye" id="toggleIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                        <div class="password-wrapper">
+                            <input type="password" id="confirmPasswordInput" asp-for="ConfirmPassword" required
+                                   class="form-input">
+                            <button type="button" class="toggle-password"
+                                    onclick="togglePassword('confirmPasswordInput', 'confirmToggleIcon')">
+                                <i class="fas fa-eye" id="confirmToggleIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="register-btn">CREATE ACCOUNT</button>
+                    </div>
+
+                    <div class="login-link">
+                        <span>Already have an account?</span>
+                        <a asp-controller="Account" asp-action="Login">Sign In</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+</main>

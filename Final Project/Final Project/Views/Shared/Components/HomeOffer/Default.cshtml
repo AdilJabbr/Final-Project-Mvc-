@@ -1,0 +1,34 @@
+﻿@using Service.DTOs.Admin.Products
+@using Service.ViewModel.Admin.DealOfMonth
+@model ProductVM
+
+@if (Model != null)
+{
+    <section id="home-offer_banner">
+        <div class="offer-banner">
+            <div class="banner-img" style="padding:0 50px ; max-height:200px">
+                <img src="@Model.IsMainPicture" alt="" />
+            </div>
+            <div class="banner-info">
+                <h3><span>Deal</span> of the month</h3>
+                <h4>@Model.Name</h4>
+                <h4>@Model.Price ₼</h4>
+                <p>@Model.Description</p>
+
+                <div class="banner-countdown">
+                    <div class="countdown-colon"><span id="days"></span>Days</div>
+                    <div class="countdown-colon"><span id="hours"></span>Hours</div>
+                    <div class="countdown-colon"><span id="mins"></span>Mins</div>
+                    <div class="countdown-colon"><span id="secs"></span>Secs</div>
+                </div>
+                <a href="./cart.html" class="banner-shop-btn">
+                    <i class="bi bi-cart-fill"></i> Add to Cart
+                </a>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <p style="color:red;">Endirimli məhsul tapılmadı.</p>
+}

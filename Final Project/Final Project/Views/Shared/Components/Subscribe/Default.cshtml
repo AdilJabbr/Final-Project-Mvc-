@@ -1,0 +1,174 @@
+﻿<style>
+    .subscribe-container {
+        background-color: #ffffff;
+        border-radius: 15px;
+        padding: 40px;
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .title {
+        color: #000000;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .subtitle {
+        color: #000000;
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+        opacity: 0.8;
+        line-height: 1.6;
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+    }
+
+    .email-input {
+        width: 400px;
+        padding: 15px 20px;
+        font-size: 1rem;
+        background-color: transparent;
+        border: 2px solid #000000;
+        border-radius: 8px;
+        color: #000000;
+        outline: none;
+        transition: all 0.3s ease;
+    }
+
+        .email-input::placeholder {
+            color: #000000;
+            opacity: 0.6;
+        }
+
+        .email-input:focus {
+            border-color: #000000;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            transform: scale(1.02);
+        }
+
+    .subscribe-btn {
+        width: 200px;
+        padding: 15px 15px;
+        font-size: 1.2rem;
+        background-color: #e4ccb4;
+        color: #121d23;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        letter-spacing: 1px;
+    }
+
+        .subscribe-btn:hover {
+            background-color: #dddddd;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .subscribe-btn:active {
+            transform: translateY(0);
+        }
+
+    .alert {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        animation: slideDown 0.5s ease-out;
+    }
+
+    .alert-success {
+        background-color: #28a745;
+        color: white;
+        border: 2px solid #28a745;
+    }
+
+    .alert-danger {
+        background-color: #dc3545;
+        color: white;
+        border: 2px solid #dc3545;
+    }
+
+    keyframes slideDown {
+        from
+
+    {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    }
+
+    media (max-width: 600px) {
+        .subscribe-container
+
+    {
+        padding: 30px 20px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    }
+</style>
+
+<section id="newsletter-subscribe">
+    <div class="container">
+        <div class="subscribe-box text-center" style="
+          padding: 60px 50px;
+          background-color: #ffffff;
+          border-radius: 15px;
+          border: 2px solid black;
+          max-width: 100%;
+          width: 100%;
+          margin: 0 auto 80px;
+      ">
+            <h2 style="color: black; font-size: 2.5rem; margin-bottom: 20px;font-family: 'Playfair Display';">
+                Join Our Coffee Newsletter
+            </h2>
+            <p style="color: black; opacity: 0.85; font-size: 1.1rem; margin-bottom: 35px;">
+                Stay updated with our newest brews, café events, and exclusive discounts delivered straight to
+                your inbox. Coffee lovers never miss out!
+            </p>
+
+            @if (TempData["Successs"] != null)
+            {
+                <div class="alert alert-success text-center">
+                    @TempData["Successs"]
+                </div>
+            }
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger text-center">
+                    @TempData["Error"]
+                </div>
+            }
+
+            <form asp-controller="Subscribe" asp-action="Subscribe" method="post">
+                <div class="form-group">
+                    <input name="email" class jeans-input" placeholder="Your email address" type="email" required />
+                </div>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+                @Html.AntiForgeryToken()
+            </form>
+        </div>
+    </div>
+</section>

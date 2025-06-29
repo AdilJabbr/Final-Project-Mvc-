@@ -1,0 +1,69 @@
+﻿<section id="home-advertisement">
+    <div class="advertisement">
+        <div class="advertisement-video">
+            <div id="video-thumbnail"
+                 style="position: relative; cursor: pointer; display: inline-block">
+                <img src="~/Client/Image/Home/Advertisement/Screenshot 2025-06-28 112926.png"
+                     alt="Play Video"
+                     style="aspect-ratio: 1/0.83; width: 100%; border-radius: 10px" />
+                @* <img src="https://img.icons8.com/ios-filled/100/FFA500/play-button-circled--v1.png" *@
+                     alt="Play Icon"
+                     style="
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  width: 60px;
+                " />
+            </div>
+            <div id="video-modal"
+                 style="
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                justify-content: center;
+                align-items: center;
+                z-index: 9999;
+              ">
+                <div style="position: relative; width: 80%; max-width: 800px">
+                    <span id="close-modal"
+                          style="
+                    position: absolute;
+                    top: -30px;
+                    right: 0;
+                    font-size: 30px;
+                    color: white;
+                    cursor: pointer;
+                  ">&times;</span>
+                    <iframe id="video-frame"
+                            width="100%"
+                            height="450"
+                            src=""
+                            frameborder="0"
+                            allowfullscreen
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="advertisement-text">
+            <p>Since Year 1999</p>
+            <h2>We are <span>Fruitkha</span></h2>
+            <p>
+                Etiam vulputate ut augue vel sodales. In sollicitudin neque et
+                massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget
+                dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed,
+                interdum velit. Nam eu molestie lorem.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+                facilis illo repellat veritatis minus, et labore minima mollitia
+                qui ducimus.
+            </p>
+            <a asp-controller="About" asp-action="Index">know more</a>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,65 @@
+﻿@model LoginVM
+
+
+<main id="login-register">
+    <section id="Sing-in_up-section">
+        <div class="registration">
+            <div id="sign-in">
+                <h1>Login</h1>
+
+
+                @* <label>Email</label>
+                <input type="email" placeholder="Email">
+                <label>Password</label>
+                <span class="password-container">
+                    <input type="password" class="password-input" placeholder="Password">
+                    <button type="button" class="toggle-password">
+                        <i class="bi bi-eye"></i>
+                    </button>
+                </span>
+                <button class="forgot-password">
+                    <a href="./Loginreset.html">Forgot your password?</a>
+                </button>
+                <div class="sing-up-btn">
+                    <button class="sign-btn">SIGN IN</button>
+                    <button class="sign-up-link"><a href="./register-logim.html">New customer? Sign up for an account</a></button>
+                </div> *@
+
+                <form method="post" asp-controller="Account" asp-action="Login">
+                    <div class="form-group">
+                        <label asp-for="EmailOrUsername" class="form-label">
+                            Username or email
+                        </label>
+                        <input asp-for="EmailOrUsername" required class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Password" class="form-label">Password</label>
+                        <div class="password-wrapper">
+                            <input type="password" id="passwordInput" asp-for="Password" required
+                                   class="form-input">
+                            <button type="button" class="toggle-password" onclick="togglePassword()">
+                                <i class="fas fa-eye" id="toggleIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form-options">
+                        <a asp-controller="Account" asp-action="ForgotPassword" class="forgot-password">Forgot password?</a>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="login-btn">LOGIN</button>
+                    </div>
+
+                    <div class="register-link">
+                        <span>Don't have an account?</span>
+                        <a asp-controller="Account" asp-action="Register">Create Account</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+</main>

@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Final_Project</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\adilj\OneDrive\Desktop\Final Project\Final Project\.editorconfig" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\CODEOWNERS" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\codeql\codeql-config.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\dependabot.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\ISSUE_TEMPLATE\bug_report.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\ISSUE_TEMPLATE\config.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\ISSUE_TEMPLATE\feature_request.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\PULL_REQUEST_TEMPLATE.md" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\release-drafter.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\SUPPORT.md" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\browserstack.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\bundlewatch.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\calibreapp-image-actions.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\codeql.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\cspell.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\css.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\docs.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\issue-close-require.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\issue-labeled.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\js.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\lint.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\node-sass.yml" />
+    <None Include="wwwroot\bootstrap-5.3.5\.github\workflows\release-notes.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Service\Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,114 @@
+﻿@using Service.ViewModel.Admin.Employees
+@model IEnumerable<EmployeeVM>
+<main id="about">
+    <section id="about-background"></section>
+    <section id="about-introduction">
+        <p>We sale fresh fruits</p>
+        <h1>About Us</h1>
+    </section>
+    <section id="about-features">
+        <div class="about-feature">
+            <div class="about-features-text">
+                <h3>Why <span>Fruitkha</span></h3>
+                <div class="features-icons">
+                    <div class="features-icon">
+                        <div class="left-icon"><i class="bi bi-truck"></i></div>
+                        <div class="right-contennt">
+                            <h3>Home Delivery</h3>
+                            <p>
+                                sit voluptatem accusantium dolore mque laudantium, totam rem
+                                aperiam, eaque ipsa quae ab illo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="features-icon">
+                        <div class="left-icon"><i class="bi bi-cash"></i></div>
+                        <div class="right-contennt">
+                            <h3>Best Price</h3>
+                            <p>
+                                sit voluptatem accusantium dolore mque laudantium, totam rem
+                                aperiam, eaque ipsa quae ab illo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="features-icon">
+                        <div class="left-icon"><i class="bi bi-box-seam-fill"></i></div>
+                        <div class="right-contennt">
+                            <h3>Custom Box</h3>
+                            <p>
+                                sit voluptatem accusantium dolore mque laudantium, totam rem
+                                aperiam, eaque ipsa quae ab illo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="features-icon">
+                        <div class="left-icon"><i class="bi bi-arrow-repeat"></i></div>
+                        <div class="right-contennt">
+                            <h3>Quick Refund</h3>
+                            <p>
+                                sit voluptatem accusantium dolore mque laudantium, totam rem
+                                aperiam, eaque ipsa quae ab illo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-features-img">
+                <img src="~/Client/Image/About/Features/image.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <section id="about-banner">
+        <div class="about-banner-text">
+            <h3>
+                December sale is on!
+                <br />
+                with big <span>Discount...</span>
+            </h3>
+            <div class="banner-text-discount">
+                <span>
+                    Sale!
+                    <br />
+                    Upto
+                </span>
+                <p>50%</p>
+                <span>off</span>
+            </div>
+            <a href="./shop.html">Shop Now</a>
+        </div>
+    </section>
+    <section id="about-ourteam">
+        <div class="ourteam">
+            <div class="ourteam-title">
+                <h3>
+                    Our <span>Team</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+            </div>
+            <div class="ourteam-cards">
+                @foreach (var item in Model.Take(3))
+                {
+                    <div class="ourteam-card">
+                        <div class="ourteam-card-img">
+
+                            <img src=@item.ImageUrl alt="">
+                            <ul>
+                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <h3>
+                            @item.Name
+                            <span>@item.Position</span>
+                        </h3>
+                    </div>
+                }
+                
+               
+
+            </div>
+        </div>
+    </section>
+    
+</main>

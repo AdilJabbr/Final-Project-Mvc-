@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Your Account - Fruitkha</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Animated background elements */
+        .bg-fruit {
+            position: absolute;
+            opacity: 0.1;
+            animation: float 6s ease-in-out infinite;
+        }
+
+            .bg-fruit:nth-child(1) {
+                top: 10%;
+                left: 5%;
+                font-size: 3rem;
+                animation-delay: 0s;
+            }
+
+            .bg-fruit:nth-child(2) {
+                top: 70%;
+                left: 80%;
+                font-size: 4rem;
+                animation-delay: 2s;
+            }
+
+            .bg-fruit:nth-child(3) {
+                top: 30%;
+                right: 10%;
+                font-size: 2.5rem;
+                animation-delay: 4s;
+            }
+
+            .bg-fruit:nth-child(4) {
+                bottom: 20%;
+                left: 15%;
+                font-size: 3.5rem;
+                animation-delay: 1s;
+            }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(5deg);
+            }
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 60px 40px;
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            z-index: 10;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #FF6B35, #F7931E);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+            box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
+        }
+
+        .logo-text {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2C3E50;
+            margin-left: 5px;
+        }
+
+            .logo-text .highlight {
+                color: #FF6B35;
+            }
+
+        .welcome-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #FF6B35, #F7931E);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #2C3E50;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .user-name {
+            font-size: 24px;
+            font-weight: 500;
+            color: #FF6B35;
+            margin-bottom: 30px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #7F8C8D;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .confirm-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #FF6B35, #F7931E);
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .confirm-btn:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+                transition: left 0.5s;
+            }
+
+            .confirm-btn:hover:before {
+                left: 100%;
+            }
+
+            .confirm-btn:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 15px 40px rgba(255, 107, 53, 0.5);
+            }
+
+        .features {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 20px 10px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 107, 53, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature-text {
+            font-size: 12px;
+            color: #7F8C8D;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 30px;
+                margin: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .user-name {
+                font-size: 20px;
+            }
+
+            .confirm-btn {
+                padding: 16px 30px;
+                font-size: 16px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated background fruits -->
+    <div class="bg-fruit">🍎</div>
+    <div class="bg-fruit">🍊</div>
+    <div class="bg-fruit">🍇</div>
+    <div class="bg-fruit">🥝</div>
+
+    <div class="container">
+        <div class="logo">
+            <div class="logo-text"><span class="highlight">Fruitkha</span></div>
+        </div>
+
+        <div class="welcome-badge">Fresh & Organic</div>
+        <h1>Welcome</h1>
+        <div class="user-name">{{fullName}}</div>
+
+        <p class="description">
+            We're excited to have you join our fresh fruit community!
+            First, you need to confirm your account to start enjoying our delicious seasonal fruits.
+        </p>
+
+        <a href="{{link}}" class="confirm-btn pulse">
+            Confirm Account
+        </a>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🌱</div>
+                <div class="feature-text">100% Organic</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🚚</div>
+                <div class="feature-text">Fresh Delivery</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⭐</div>
+                <div class="feature-text">Premium Quality</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
