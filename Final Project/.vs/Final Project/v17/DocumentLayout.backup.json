@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\service\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,54 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Areas\\Admin\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Areas\\Admin\\Controllers\\BaseController.cs*",
-              "RelativeToolTip": "Final Project\\Areas\\Admin\\Controllers\\BaseController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T18:18:32.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Final Project\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\appsettings.Development.json",
               "RelativeToolTip": "Final Project\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-29T18:00:07.586Z",
+              "WhenOpened": "2025-06-29T18:58:30.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Service\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Service\\Services\\AccountService.cs",
-              "RelativeToolTip": "Service\\Services\\AccountService.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAowDwAAAA/AAAAAAAAAA==",
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Service\\Helpers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Service\\Helpers\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Service\\Helpers\\MappingProfile.cs",
+              "RelativeToolTip": "Service\\Helpers\\MappingProfile.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADgvx4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T17:53:23.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T17:51:01.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T18:50:14.664Z"
             }
           ]
         }

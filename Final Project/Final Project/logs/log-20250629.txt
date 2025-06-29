@@ -9717,3 +9717,436 @@ System.InvalidOperationException: Role ADMIN does not exist.
 2025-06-29 22:20:14.776 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.2546ms
 2025-06-29 22:20:14.791 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
 2025-06-29 22:20:14.794 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 3.6658ms
+2025-06-29 22:26:14.623 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 22:26:14.674 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 22:26:14.811 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 22:26:14.816 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 22:26:38.142 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 22:26:38.193 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 22:26:38.490 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-29 22:26:38.508 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-29 22:26:38.509 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-29 22:26:38.510 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-29 22:26:38.528 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-29 22:26:38.542 +04:00 [INF] Applying migration '20250629182615_database'.
+2025-06-29 22:26:38.634 +04:00 [ERR] Failed executing DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Abts] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [CreateDate] datetime2 NOT NULL,
+    [VideoLink] nvarchar(max) NOT NULL,
+    [SoftDelete] bit NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Abts] PRIMARY KEY ([Id])
+);
+2025-06-29 22:28:12.326 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 22:28:12.376 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 22:28:12.659 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-29 22:28:12.678 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-29 22:28:12.680 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-29 22:28:12.680 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-29 22:28:12.697 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-29 22:28:12.710 +04:00 [INF] Applying migration '20250629182615_database'.
+2025-06-29 22:28:12.798 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Abts] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [CreateDate] datetime2 NOT NULL,
+    [VideoLink] nvarchar(max) NOT NULL,
+    [SoftDelete] bit NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Abts] PRIMARY KEY ([Id])
+);
+2025-06-29 22:28:12.802 +04:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-06-29 22:30:14.758 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 22:30:14.807 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 22:30:14.984 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 22:30:14.989 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 22:30:36.159 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 22:30:36.211 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 22:30:36.525 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-29 22:30:36.544 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-29 22:30:36.545 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-29 22:30:36.546 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-29 22:30:36.561 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-29 22:30:36.571 +04:00 [INF] Applying migration '20250629183015_abt'.
+2025-06-29 22:30:36.615 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250629183015_abt', N'8.0.15');
+2025-06-29 22:31:12.335 +04:00 [INF] User profile is available. Using 'C:\Users\adilj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-29 22:31:12.467 +04:00 [INF] Now listening on: https://localhost:7099
+2025-06-29 22:31:12.469 +04:00 [INF] Now listening on: http://localhost:5015
+2025-06-29 22:31:12.514 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-29 22:31:12.515 +04:00 [INF] Hosting environment: Development
+2025-06-29 22:31:12.516 +04:00 [INF] Content root path: C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Final Project
+2025-06-29 22:31:13.380 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2025-06-29 22:31:13.615 +04:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-29 22:31:13.620 +04:00 [INF] Executing endpoint 'Final_Project.Controllers.HomeController.Index (Final Project)'
+2025-06-29 22:31:13.646 +04:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Final_Project.Controllers.HomeController (Final Project).
+2025-06-29 22:31:13.656 +04:00 [INF] Executing ViewResult, running view Index.
+2025-06-29 22:31:14.262 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 22:31:14.288 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 22:31:14.810 +04:00 [ERR] Failed executing DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 22:31:14.830 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Repository.Db'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsMainPicture'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:adcecf92-d5ff-4472-97c9-06ad6319eb33
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsMainPicture'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:adcecf92-d5ff-4472-97c9-06ad6319eb33
+Error Number:207,State:1,Class:16
+2025-06-29 22:31:14.844 +04:00 [INF] Executed action Final_Project.Controllers.HomeController.Index (Final Project) in 1192.5686ms
+2025-06-29 22:31:14.846 +04:00 [INF] Executed endpoint 'Final_Project.Controllers.HomeController.Index (Final Project)'
+2025-06-29 22:31:14.850 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsMainPicture'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Repository.Repositories.ProductRepository.GetAllAsync() in C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Repository\Repositories\ProductRepository.cs:line 22
+   at Service.Services.ProductService.GetAllAsync() in C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Service\Services\ProductService.cs:line 139
+   at Final_Project.ViewComponents.HomeProductsViewComponent.InvokeAsync() in C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Final Project\ViewComponents\HomeProductsViewComponent.cs:line 15
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, Object component, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCoreGeneratedDocument.Views_Home_Index.ExecuteAsync() in C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Final Project\Views\Home\Index.cshtml:line 2
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:adcecf92-d5ff-4472-97c9-06ad6319eb33
+Error Number:207,State:1,Class:16
+2025-06-29 22:31:14.996 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 500 null text/html; charset=utf-8 1623.3575ms
+2025-06-29 22:31:15.014 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2025-06-29 22:31:15.014 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-29 22:31:15.027 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 12.5158ms
+2025-06-29 22:31:15.068 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.6144ms
+2025-06-29 22:31:15.191 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/favicon.ico - null null
+2025-06-29 22:31:15.197 +04:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-06-29 22:31:15.199 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/favicon.ico - 404 0 null 7.2612ms
+2025-06-29 22:31:15.203 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/favicon.ico, Response status code: 404
+2025-06-29 23:00:50.596 +04:00 [INF] User profile is available. Using 'C:\Users\adilj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-29 23:00:50.727 +04:00 [INF] Now listening on: https://localhost:7099
+2025-06-29 23:00:50.729 +04:00 [INF] Now listening on: http://localhost:5015
+2025-06-29 23:00:50.774 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-29 23:00:50.776 +04:00 [INF] Hosting environment: Development
+2025-06-29 23:00:50.777 +04:00 [INF] Content root path: C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Final Project
+2025-06-29 23:00:51.990 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2025-06-29 23:00:52.198 +04:00 [INF] Executing endpoint 'Final_Project.Controllers.HomeController.Index (Final Project)'
+2025-06-29 23:00:52.227 +04:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Final_Project.Controllers.HomeController (Final Project).
+2025-06-29 23:00:52.238 +04:00 [INF] Executing ViewResult, running view Index.
+2025-06-29 23:00:52.824 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 23:00:52.849 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 23:00:53.392 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:00:53.450 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:00:53.495 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:00:53.527 +04:00 [INF] Executed ViewResult - view Index executed in 1291.0823ms.
+2025-06-29 23:00:53.531 +04:00 [INF] Executed action Final_Project.Controllers.HomeController.Index (Final Project) in 1300.6647ms
+2025-06-29 23:00:53.534 +04:00 [INF] Executed endpoint 'Final_Project.Controllers.HomeController.Index (Final Project)'
+2025-06-29 23:00:53.548 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 1567.9928ms
+2025-06-29 23:00:53.559 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Client/Css/style.css?v=EULku4j8yhWunG9MCrhD-E86Nv5f_mfB_i865O5RCcY - null null
+2025-06-29 23:00:53.578 +04:00 [INF] Sending file. Request path: '/Client/Css/style.css'. Physical path: 'C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Final Project\wwwroot\Client\Css\style.css'
+2025-06-29 23:00:53.581 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Client/Css/style.css?v=EULku4j8yhWunG9MCrhD-E86Nv5f_mfB_i865O5RCcY - 200 100982 text/css 21.42ms
+2025-06-29 23:00:53.606 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-29 23:00:53.608 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Client/Js/footer.js - null null
+2025-06-29 23:00:53.610 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2025-06-29 23:00:53.610 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Client/Js/checkout.js - null null
+2025-06-29 23:00:53.611 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Client/Image/Home/Advertisement/Screenshot 2025-06-28 112926.png - null null
+2025-06-29 23:00:53.620 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 13.6973ms
+2025-06-29 23:00:53.621 +04:00 [INF] The file /Client/Js/footer.js was not modified
+2025-06-29 23:00:53.627 +04:00 [INF] The file /Client/Js/checkout.js was not modified
+2025-06-29 23:00:53.633 +04:00 [INF] The file /Client/Image/Home/Advertisement/Screenshot 2025-06-28 112926.png was not modified
+2025-06-29 23:00:53.638 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Client/Js/footer.js - 304 null text/javascript 30.0923ms
+2025-06-29 23:00:53.639 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Client/Js/checkout.js - 304 null text/javascript 28.9556ms
+2025-06-29 23:00:53.641 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Client/Image/Home/Advertisement/Screenshot 2025-06-28 112926.png - 304 null image/png 29.3076ms
+2025-06-29 23:00:53.686 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.3557ms
+2025-06-29 23:00:53.940 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/favicon.ico - null null
+2025-06-29 23:00:53.948 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/favicon.ico - 404 0 null 7.862ms
+2025-06-29 23:00:53.953 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/favicon.ico, Response status code: 404
+2025-06-29 23:01:44.963 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/account/CreateRoles - null null
+2025-06-29 23:01:44.976 +04:00 [INF] Executing endpoint 'Final_Project.Controllers.AccountController.CreateRoles (Final Project)'
+2025-06-29 23:01:44.983 +04:00 [INF] Route matched with {action = "CreateRoles", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoles() on controller Final_Project.Controllers.AccountController (Final Project).
+2025-06-29 23:01:45.096 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-29 23:01:45.103 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-29 23:01:45.192 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-06-29 23:01:45.208 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-29 23:01:45.211 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-29 23:01:45.216 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-06-29 23:01:45.219 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-29 23:01:45.222 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-29 23:01:45.225 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-06-29 23:01:45.230 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-06-29 23:01:45.231 +04:00 [INF] Executed action Final_Project.Controllers.AccountController.CreateRoles (Final Project) in 244.2983ms
+2025-06-29 23:01:45.233 +04:00 [INF] Executed endpoint 'Final_Project.Controllers.AccountController.CreateRoles (Final Project)'
+2025-06-29 23:01:45.234 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/account/CreateRoles - 200 0 null 271.114ms
+2025-06-29 23:03:48.205 +04:00 [INF] User profile is available. Using 'C:\Users\adilj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-29 23:03:48.339 +04:00 [INF] Now listening on: https://localhost:7099
+2025-06-29 23:03:48.341 +04:00 [INF] Now listening on: http://localhost:5015
+2025-06-29 23:03:48.384 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-29 23:03:48.386 +04:00 [INF] Hosting environment: Development
+2025-06-29 23:03:48.387 +04:00 [INF] Content root path: C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Final Project
+2025-06-29 23:03:49.435 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2025-06-29 23:03:49.617 +04:00 [INF] Executing endpoint 'Final_Project.Controllers.HomeController.Index (Final Project)'
+2025-06-29 23:03:49.647 +04:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Final_Project.Controllers.HomeController (Final Project).
+2025-06-29 23:03:49.657 +04:00 [INF] Executing ViewResult, running view Index.
+2025-06-29 23:03:50.349 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 23:03:50.377 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 23:03:50.921 +04:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:03:50.976 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:03:51.024 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:03:51.056 +04:00 [INF] Executed ViewResult - view Index executed in 1400.0908ms.
+2025-06-29 23:03:51.062 +04:00 [INF] Executed action Final_Project.Controllers.HomeController.Index (Final Project) in 1411.8524ms
+2025-06-29 23:03:51.066 +04:00 [INF] Executed endpoint 'Final_Project.Controllers.HomeController.Index (Final Project)'
+2025-06-29 23:03:51.081 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 1647.9754ms
+2025-06-29 23:03:51.138 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2025-06-29 23:03:51.138 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-29 23:03:51.150 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 11.274ms
+2025-06-29 23:03:51.175 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.489ms
+2025-06-29 23:03:52.090 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/favicon.ico - null null
+2025-06-29 23:03:52.103 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/favicon.ico - 404 0 null 13.3464ms
+2025-06-29 23:03:52.110 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/favicon.ico, Response status code: 404
+2025-06-29 23:03:53.135 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-06-29 23:03:53.143 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 7.5904ms
+2025-06-29 23:03:53.148 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-06-29 23:03:53.353 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Client/Css/style.css.map - null null
+2025-06-29 23:03:53.358 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Client/Css/style.css.map - 404 0 null 4.432ms
+2025-06-29 23:03:53.362 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/Client/Css/style.css.map, Response status code: 404
+2025-06-29 23:07:30.839 +04:00 [INF] User profile is available. Using 'C:\Users\adilj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-29 23:07:31.001 +04:00 [INF] Now listening on: https://localhost:7099
+2025-06-29 23:07:31.003 +04:00 [INF] Now listening on: http://localhost:5015
+2025-06-29 23:07:31.055 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-29 23:07:31.056 +04:00 [INF] Hosting environment: Development
+2025-06-29 23:07:31.057 +04:00 [INF] Content root path: C:\Users\adilj\OneDrive\Desktop\Final Project Fruitkha\Final Project\Final Project
+2025-06-29 23:07:32.473 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/ - null null
+2025-06-29 23:07:32.677 +04:00 [INF] Executing endpoint 'Final_Project.Controllers.HomeController.Index (Final Project)'
+2025-06-29 23:07:32.717 +04:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Final_Project.Controllers.HomeController (Final Project).
+2025-06-29 23:07:32.733 +04:00 [INF] Executing ViewResult, running view Index.
+2025-06-29 23:07:33.470 +04:00 [WRN] The foreign key property 'SendNotfication.ProductId1' was created in shadow state because a conflicting property with the simple name 'ProductId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-06-29 23:07:33.498 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-29 23:07:34.093 +04:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:07:34.177 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:07:34.266 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:07:34.315 +04:00 [INF] Executed ViewResult - view Index executed in 1586.2918ms.
+2025-06-29 23:07:34.321 +04:00 [INF] Executed action Final_Project.Controllers.HomeController.Index (Final Project) in 1600.5425ms
+2025-06-29 23:07:34.324 +04:00 [INF] Executed endpoint 'Final_Project.Controllers.HomeController.Index (Final Project)'
+2025-06-29 23:07:34.345 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/ - 200 null text/html; charset=utf-8 1874.0121ms
+2025-06-29 23:07:34.411 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2025-06-29 23:07:34.411 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-29 23:07:34.495 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 83.5492ms
+2025-06-29 23:07:34.514 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.1255ms
+2025-06-29 23:07:34.837 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/favicon.ico - null null
+2025-06-29 23:07:34.852 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/favicon.ico - 404 0 null 14.6586ms
+2025-06-29 23:07:34.859 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/favicon.ico, Response status code: 404
+2025-06-29 23:07:36.423 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Shop - null null
+2025-06-29 23:07:36.435 +04:00 [INF] Executing endpoint 'Final_Project.Controllers.ShopController.Index (Final Project)'
+2025-06-29 23:07:36.452 +04:00 [INF] Route matched with {action = "Index", controller = "Shop", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32], System.Collections.Generic.List`1[System.Int32], System.Collections.Generic.List`1[System.Int32], System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int32) on controller Final_Project.Controllers.ShopController (Final Project).
+2025-06-29 23:07:36.524 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:07:36.539 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CreatedDate], [c].[Name], [c].[ProductId], [c].[SoftDelete]
+FROM [Categories] AS [c]
+2025-06-29 23:07:36.548 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:07:36.556 +04:00 [INF] Executing ViewResult, running view Index.
+2025-06-29 23:07:36.580 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:07:36.586 +04:00 [INF] Executed ViewResult - view Index executed in 31.7098ms.
+2025-06-29 23:07:36.588 +04:00 [INF] Executed action Final_Project.Controllers.ShopController.Index (Final Project) in 132.1145ms
+2025-06-29 23:07:36.590 +04:00 [INF] Executed endpoint 'Final_Project.Controllers.ShopController.Index (Final Project)'
+2025-06-29 23:07:36.592 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Shop - 200 null text/html; charset=utf-8 168.5383ms
+2025-06-29 23:07:36.613 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Image/Navbar/logo.png - null null
+2025-06-29 23:07:36.613 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2025-06-29 23:07:36.614 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-29 23:07:36.618 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Image/Navbar/logo.png - 404 0 null 5.3829ms
+2025-06-29 23:07:36.625 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 11.7146ms
+2025-06-29 23:07:36.627 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.267ms
+2025-06-29 23:07:36.631 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/Image/Navbar/logo.png, Response status code: 404
+2025-06-29 23:07:42.198 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Shop?sort=2&minPrice=&maxPrice= - null null
+2025-06-29 23:07:42.206 +04:00 [INF] Executing endpoint 'Final_Project.Controllers.ShopController.Index (Final Project)'
+2025-06-29 23:07:42.209 +04:00 [INF] Route matched with {action = "Index", controller = "Shop", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32], System.Collections.Generic.List`1[System.Int32], System.Collections.Generic.List`1[System.Int32], System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int32) on controller Final_Project.Controllers.ShopController (Final Project).
+2025-06-29 23:07:42.225 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:07:42.229 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CreatedDate], [c].[Name], [c].[ProductId], [c].[SoftDelete]
+FROM [Categories] AS [c]
+2025-06-29 23:07:42.232 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:07:42.235 +04:00 [INF] Executing ViewResult, running view Index.
+2025-06-29 23:07:42.241 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:07:42.245 +04:00 [INF] Executed ViewResult - view Index executed in 10.1531ms.
+2025-06-29 23:07:42.246 +04:00 [INF] Executed action Final_Project.Controllers.ShopController.Index (Final Project) in 34.0923ms
+2025-06-29 23:07:42.248 +04:00 [INF] Executed endpoint 'Final_Project.Controllers.ShopController.Index (Final Project)'
+2025-06-29 23:07:42.249 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Shop?sort=2&minPrice=&maxPrice= - 200 null text/html; charset=utf-8 51.0568ms
+2025-06-29 23:07:42.270 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Image/Navbar/logo.png - null null
+2025-06-29 23:07:42.276 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Image/Navbar/logo.png - 404 0 null 6.2235ms
+2025-06-29 23:07:42.281 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/Image/Navbar/logo.png, Response status code: 404
+2025-06-29 23:07:42.284 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-29 23:07:42.286 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2025-06-29 23:07:42.289 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 4.7052ms
+2025-06-29 23:07:42.301 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.9696ms
+2025-06-29 23:07:47.138 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Shop?sort=4&minPrice=&maxPrice= - null null
+2025-06-29 23:07:47.146 +04:00 [INF] Executing endpoint 'Final_Project.Controllers.ShopController.Index (Final Project)'
+2025-06-29 23:07:47.148 +04:00 [INF] Route matched with {action = "Index", controller = "Shop", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32], System.Collections.Generic.List`1[System.Int32], System.Collections.Generic.List`1[System.Int32], System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], Int32) on controller Final_Project.Controllers.ShopController (Final Project).
+2025-06-29 23:07:47.163 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[CategoryId], [p].[Count], [p].[CreatedDate], [p].[Description], [p].[IsMainPicture], [p].[Name], [p].[Price], [p].[SoftDelete]
+FROM [Products] AS [p]
+2025-06-29 23:07:47.166 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CreatedDate], [c].[Name], [c].[ProductId], [c].[SoftDelete]
+FROM [Categories] AS [c]
+2025-06-29 23:07:47.169 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:07:47.172 +04:00 [INF] Executing ViewResult, running view Index.
+2025-06-29 23:07:47.176 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedDate], [b].[ImageUrl], [b].[Name], [b].[SoftDelete]
+FROM [Brands] AS [b]
+2025-06-29 23:07:47.178 +04:00 [INF] Executed ViewResult - view Index executed in 6.3704ms.
+2025-06-29 23:07:47.180 +04:00 [INF] Executed action Final_Project.Controllers.ShopController.Index (Final Project) in 26.7359ms
+2025-06-29 23:07:47.181 +04:00 [INF] Executed endpoint 'Final_Project.Controllers.ShopController.Index (Final Project)'
+2025-06-29 23:07:47.183 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Shop?sort=4&minPrice=&maxPrice= - 200 null text/html; charset=utf-8 44.901ms
+2025-06-29 23:07:47.199 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/Image/Navbar/logo.png - null null
+2025-06-29 23:07:47.201 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - null null
+2025-06-29 23:07:47.201 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-29 23:07:47.204 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/Image/Navbar/logo.png - 404 0 null 4.6077ms
+2025-06-29 23:07:47.211 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 9.1586ms
+2025-06-29 23:07:47.211 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.0441ms
+2025-06-29 23:07:47.216 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7099/Image/Navbar/logo.png, Response status code: 404
