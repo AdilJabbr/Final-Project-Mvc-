@@ -10,13 +10,13 @@
         </div>
         <div class="products-cards">
           
-          @foreach (var item in Model.ToList().Take(5))
+          @foreach (var item in Model.ToList().Take(4))
             {
                 <div class="products-card">
                     <div class="cart-item">
                         <div class="cart-item_img">
                             <a href="">
-                                <img src="@item.IsMainPicture" alt="" />
+                                <img src="@item.IsMainPicture" style="height : 100px" alt="" />
                             </a>
                         </div>
                     </div>
@@ -26,18 +26,22 @@
                         @item.Price
                     </p>
                     <a href="">
-                        <button>
-                            <a href="javascript:void(0);" onclick="addToBasket(@item.Id)">
+                        <form asp-action="AddToBasket" asp-controller="Basket" method="post">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit">
+
+
                                 <i class="bi bi-cart-plus-fill"></i>
-                            </a>
-                            Add to Cart
-                        </button>
-                        <button>
-                            <a href="javascript:void(0);" onclick="addToWishList(@item.Id)">
-                                <i class="fa fa-heart"></i>
-                            </a>
-                            Add to Wishlist
-                        </button>
+                                Add to Cart
+                            </button>
+                        </form>
+                        <form asp-action="AddToWishList" asp-controller="Wishlist" method="post">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit">
+                                <i class="bi bi-cart-plus-fill"></i>
+                                Add to Wishlist
+                            </button>
+                        </form>
                     </a>
                 </div>
 

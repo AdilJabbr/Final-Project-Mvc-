@@ -1,0 +1,111 @@
+﻿@using Service.DTOs.Admin.Products
+@model ProductVM
+
+<main id="product-detail">
+    <section id="product-detail-background"></section>
+    <section id="product-detail-introduction">
+        <p>Fresh and Organic</p>
+        <h1>Single product</h1>
+    </section>
+    <section id="product-infos">
+        <div class="container">
+            <div class="product-header">
+                <div class="product-gallery">
+                    <div class="thumbnail-carousel">
+                        @foreach (var item in Model.ProductImages)
+                        {
+                            <img class="thumbnail active"
+                                 src=@item.ImageUrl
+                                 onclick="changeImage(this)" alt="product not main photo">
+                        }
+                       
+                       
+                    </div>
+
+                    <img id="mainImage" class="main-image"
+                         src=@Model.IsMainPicture
+                         alt="Product main image">
+                </div>
+
+                <div class="product-info">
+                    <h1 class="product-title">Name: @Model.Name</h1>
+                    <p class="product-subtitle">Exist weight: @Model.Count</p>
+
+                    <div class="price">@Model.Price</div>
+
+                    <div class="description">
+                        @Model.Description
+                    </div>
+
+                    <div class="quantity-section">
+                        <input type="number" class="quantity-input" value="0" min="0" max="100">
+                    </div>
+
+                    <a href="">
+                        <form asp-action="AddToBasket" asp-controller="Basket" method="post">
+                            <input type="hidden" name="id" value="@Model.Id" />
+                            <button type="submit">
+                                <i class="bi bi-cart-plus-fill"></i>
+                                Add to Cart
+                            </button>
+                        </form>
+                    </a>
+
+                    <a href="">
+                        <form asp-action="AddToWishList" asp-controller="Wishlist" method="post">
+                            <input type="hidden" name="id" value="@Model.Id" />
+                            <button type="submit">
+                                <i class="bi bi-cart-plus-fill"></i>
+                                Add to Wishlist
+                            </button>
+                        </form>
+                    </a>
+
+                    <div class="product-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Category:</span>
+                            <span class="meta-value">@Model.CategoryName</span>
+                        </div>
+                        <div class="meta-item">
+
+                            <span class="meta-label"> Brand:</span>
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/020/621/051/small/fresh-fruit-logo-template-design-vector.jpg"
+                                 alt="">
+                            <span class="meta-value">@Model.BrandName</span>
+                        </div>
+                     
+                       
+                    </div>
+
+                    <div class="share-section">
+                        <h3 class="share-title">Share:</h3>
+                        <div class="share-buttons">
+                            <button class="share-btn facebook" onclick="shareProduct('facebook')">f</button>
+                            <button class="share-btn twitter" onclick="shareProduct('twitter')">t</button>
+                            <button class="share-btn google" onclick="shareProduct('google')">G+</button>
+                            <button class="share-btn linkedin" onclick="shareProduct('linkedin')">in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="comment-section">
+        <div class="container">
+            <h2>İstifadəçi Rəyləri</h2>
+            <div class="comment-form">
+                <div class="stars" id="starRating">
+                    <i class="bi bi-star" data-val="1"></i>
+                    <i class="bi bi-star" data-val="2"></i>
+                    <i class="bi bi-star" data-val="3"></i>
+                    <i class="bi bi-star" data-val="4"></i>
+                    <i class="bi bi-star" data-val="5"></i>
+                </div>
+                <textarea placeholder="Şərhinizi yazın..."></textarea>
+                <button onclick="addComment()">Paylaş</button>
+            </div>
+
+            <div id="comments"></div>
+        </div>
+        
+    </section>
+</main>

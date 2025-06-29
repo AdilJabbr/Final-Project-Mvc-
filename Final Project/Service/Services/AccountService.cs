@@ -58,7 +58,7 @@ namespace Service.Services
 
             if (!result.Succeeded) return result;
 
-            await _userManager.AddToRoleAsync(user, Roles.Member.ToString());
+            await _userManager.AddToRoleAsync(user, Roles.Admin.ToString());
 
             string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
 

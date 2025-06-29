@@ -228,9 +228,9 @@
                             <div class="products-card">
                                 <div class="cart-item">
                                     <div class="cart-item_img">
-                                        <a href="">
+                                        <a asp-controller="Shop"  asp-action="Detail" asp-route-id="@item.Id">
                                             <img src="@item.IsMainPicture"
-                                                 alt="" />
+                                                 alt="Product image" />
                                         </a>
                                     </div>
                                 </div>
@@ -243,6 +243,8 @@
                                     <form asp-action="AddToBasket" asp-controller="Basket" method="post">
                                         <input type="hidden" name="id" value="@item.Id" />
                                         <button type="submit">
+                                           
+                                            
                                             <i class="bi bi-cart-plus-fill"></i>
                                             Add to Cart
                                         </button>
