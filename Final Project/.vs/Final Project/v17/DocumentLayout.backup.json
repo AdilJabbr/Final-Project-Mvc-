@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\service\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\wwwroot\\client\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\wwwroot\\client\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\service\\services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{863157B1-B9DB-4481-A56B-E31D8689E839}|Service\\Service.csproj|solutionrelative:service\\services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\views\\shared\\components\\homeoffer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\homeoffer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|c:\\users\\adilj\\onedrive\\desktop\\final project fruitkha\\final project\\final project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1EE2DE-49E3-48E9-855A-45862407B1F1}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Final Project\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\appsettings.Development.json",
-              "RelativeToolTip": "Final Project\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-29T18:58:30.662Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\News\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\News\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T12:52:25.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Service\\Helpers\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Service\\Helpers\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Service\\Helpers\\MappingProfile.cs",
-              "RelativeToolTip": "Service\\Helpers\\MappingProfile.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAADgvx4AAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ShopService.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Service\\Services\\ShopService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\ShopService.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Service\\Services\\ShopService.cs",
+              "RelativeToolTip": "Service\\Services\\ShopService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T18:50:14.664Z"
+              "WhenOpened": "2025-06-30T07:01:38.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAANIAAAAAAAAAAAAmwOoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T06:43:32.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeOffer\\Default.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\HomeOffer\\Default.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\Shared\\Components\\HomeOffer\\Default.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\HomeOffer\\Default.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T05:59:56.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Areas\\Admin\\Controllers\\BaseController.cs*",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Controllers\\BaseController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T05:40:17.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T05:40:03.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\wwwroot\\Client\\Css\\style.css",
+              "RelativeDocumentMoniker": "Final Project\\wwwroot\\Client\\Css\\style.css",
+              "ToolTip": "C:\\Users\\adilj\\OneDrive\\Desktop\\Final Project Fruitkha\\Final Project\\Final Project\\wwwroot\\Client\\Css\\style.css",
+              "RelativeToolTip": "Final Project\\wwwroot\\Client\\Css\\style.css",
+              "ViewState": "AgIAAJYHAAAAAAAAAAAcwJUHAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-30T05:34:19.879Z"
             }
           ]
         }

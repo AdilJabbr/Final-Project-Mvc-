@@ -152,7 +152,7 @@
                 <form method="get" asp-action="Index" id="filterForm">
 
                     <!-- Sort by -->
-                    <div class="product-sort">
+                   @*  <div class="product-sort">
                         <label>Sort by:</label>
                         <select class="select-forms" name="sort" onchange="document.getElementById('filterForm').submit()">
                             @{
@@ -166,10 +166,25 @@
 
                         </select>
                     </div>
-
+ *@
 
 
                     <div class="product-filter">
+                        <div class="product-sort" style="padding: 15px">
+                            <label>Sort by:</label>
+                            <select class="select-forms" name="sort" onchange="document.getElementById('filterForm').submit()">
+                                @{
+                                    var selectedSort = Context.Request.Query["sort"].ToString();
+                                }
+                                <option value="0" selected="@(selectedSort == "0" || string.IsNullOrEmpty(selectedSort))">Featured</option>
+                                <option value="1" selected="@(selectedSort == "1")">A-Z</option>
+                                <option value="2" selected="@(selectedSort == "2")">Z-A</option>
+                                <option value="3" selected="@(selectedSort == "3")">Price, low to high</option>
+                                <option value="4" selected="@(selectedSort == "4")">Price, high to low</option>
+
+                            </select>
+                        </div>
+
                         <button class="accordion active">Price   <span class="up"><i class="bi bi-chevron-up"></i></span><span class="down"><i class="bi bi-chevron-down"></i></span></button>
                         <div class="panel show">
                             <p><span>From</span><span>To</span></p>
@@ -217,7 +232,7 @@
                         </div>
 
                         <div style="margin-top: 15px; text-align: center;">
-                            <button type="submit" class="btn btn-primary">Apply Filters</button>
+                            <button type="submit" style="border:none ; background-color:darkorange;padding:5px 20px ; border-radius:20px ; color:white;">Apply Filters</button>
                         </div>
                     </div>
                 </form>

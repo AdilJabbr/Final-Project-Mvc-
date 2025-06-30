@@ -10,7 +10,7 @@ namespace Service.Services
         private readonly ICategoryService _categoryService;
         private readonly IBrandService _brandService;
 
-        private int _pageSize = 5;
+        private int _pageSize = 4;
 
 
         public ShopService(IProductService productService,
